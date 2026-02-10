@@ -20,12 +20,13 @@ export default function App() {
     <Router>
       <Routes>
         {/* Public routes */}
-        <Route path='/' element={<Landing />} />
+        <Route path='/' element={<Journal />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/compliance' element={<Compliance />} />
         <Route path='/regulations' element={<Regulations />} />
         <Route path='/journal' element={<Journal />} />
+        <Route path='/landing' element={<Landing />} />
         <Route path='/journal/:id' element={<ArticlePage />} />
 
         {/* Protected routes */}
