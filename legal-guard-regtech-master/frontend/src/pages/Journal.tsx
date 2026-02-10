@@ -110,7 +110,7 @@ export default function Journal() {
             BioPeptidePlus Journal
           </p>
           <h1 className="text-3xl md:text-4xl font-bold text-white mt-3">
-            BioPeptidePlus News
+            ВЕРСИЯ 2.0 ОБНОВЛЕНА
           </h1>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
             Сухие факты, практические выводы и фокус на научной достоверности.
