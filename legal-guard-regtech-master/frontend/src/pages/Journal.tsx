@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { journalData } from '../data/journalData'
 
@@ -7,11 +8,19 @@ type JournalPost = {
   title?: string
   description?: string
   summary?: string
+  content_lite?: string
+  image_url?: string
   created_at?: string
   date?: string
 }
 
 const SKELETON_ITEMS = Array.from({ length: 6 }, (_, index) => index)
+
+type StructuredContent = {
+  introduction: string
+  essence: string
+  conclusion: string
+}
 
 const formatDate = (value?: string) => {
   if (!value) return ''
@@ -31,7 +40,7 @@ const fetchJournalPosts = async (): Promise<JournalPost[]> => {
     return []
   }
 
-  const endpoint = `${supabaseUrl.replace(/\/$/, '')}/rest/v1/journal_posts?select=id,title,description,summary,created_at,date&order=created_at.desc&limit=12`
+  const endpoint = `${supabaseUrl.replace(/\/$/, '')}/rest/v1/journal_posts?select=id,title,description,summary,content_lite,image_url,created_at,date&order=created_at.desc&limit=12`
   const response = await fetch(endpoint, {
     headers: {
       apikey: supabaseKey,
@@ -42,6 +51,32 @@ const fetchJournalPosts = async (): Promise<JournalPost[]> => {
     return []
   }
   return response.json()
+}
+
+const parseStructuredContent = (value?: string): StructuredContent | null => {
+  if (!value) return null
+  const trimmed = value.trim()
+  if (!trimmed.startsWith('{') || !trimmed.includes('introduction')) return null
+
+  const extractField = (key: keyof StructuredContent) => {
+    const pattern = new RegExp(
+      `[\\'"]${key}[\\'"]\\s*:\\s*([\\s\\S]*?)(?=,\\s*[\\'"](introduction|essence|conclusion)[\\'"]\\s*:|\\}$)`,
+      'i',
+    )
+    const match = trimmed.match(pattern)
+    if (!match) return ''
+    let raw = match[1].trim().replace(/,$/, '')
+    if ((raw.startsWith("'") && raw.endsWith("'")) || (raw.startsWith('"') && raw.endsWith('"'))) {
+      raw = raw.slice(1, -1)
+    }
+    return raw.trim()
+  }
+
+  const introduction = extractField('introduction')
+  const essence = extractField('essence')
+  const conclusion = extractField('conclusion')
+  if (!introduction && !essence && !conclusion) return null
+  return { introduction, essence, conclusion }
 }
 
 export default function Journal() {
@@ -120,20 +155,54 @@ export default function Journal() {
                   </span>
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">
-                  {article.title || 'Без названия'}
+                  {article.id ? (
+                    <Link to={`/journal/${article.id}`} className="hover:text-[#0ABAB5]">
+                      {article.title || 'Без названия'}
+                    </Link>
+                  ) : (
+                    article.title || 'Без названия'
+                  )}
                 </h3>
                 <div className="text-gray-300 leading-relaxed space-y-2">
-                  <ReactMarkdown
-                    components={{
-                      h2: (props) => <h2 className="text-lg font-semibold text-white mt-4 mb-2" {...props} />,
-                      strong: (props) => <strong className="text-white font-semibold" {...props} />,
-                      ul: (props) => <ul className="list-disc pl-5 space-y-1" {...props} />,
-                      li: (props) => <li className="text-gray-300" {...props} />,
-                      p: (props) => <p className="text-gray-300 leading-relaxed" {...props} />,
-                    }}
-                  >
-                    {article.description || article.summary || 'Описание отсутствует.'}
-                  </ReactMarkdown>
+                  {(() => {
+                    const rawText = article.description || article.summary || ''
+                    const structured = parseStructuredContent(rawText)
+                    if (!structured) {
+                      return (
+                        <ReactMarkdown
+                          components={{
+                            h2: (props) => <h2 className="text-lg font-semibold text-white mt-4 mb-2" {...props} />,
+                            strong: (props) => <strong className="text-white font-semibold" {...props} />,
+                            ul: (props) => <ul className="list-disc pl-5 space-y-1" {...props} />,
+                            li: (props) => <li className="text-gray-300" {...props} />,
+                            p: (props) => <p className="text-gray-300 leading-relaxed" {...props} />,
+                          }}
+                        >
+                          {rawText || 'Описание отсутствует.'}
+                        </ReactMarkdown>
+                      )
+                    }
+
+                    return (
+                      <div className="space-y-4">
+                        {structured.introduction && (
+                          <p className="text-gray-300 leading-relaxed">{structured.introduction}</p>
+                        )}
+                        {structured.essence && (
+                          <div>
+                            <h3 className="text-base font-semibold text-white mb-2">Суть исследования</h3>
+                            <p className="text-gray-300 leading-relaxed">{structured.essence}</p>
+                          </div>
+                        )}
+                        {structured.conclusion && (
+                          <div>
+                            <h3 className="text-base font-semibold text-white mb-2">Вывод</h3>
+                            <p className="text-gray-300 leading-relaxed">{structured.conclusion}</p>
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })()}
                 </div>
               </div>
             ))}

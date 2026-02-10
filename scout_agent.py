@@ -35,6 +35,48 @@ OPEN_WEB_SITES = [
     "cell.com",
 ]
 
+BPPLUS_PROMPT = (
+    "Ты — редактор BioPeptidePlus. Переформатируй текст строго в формате:\n"
+    "Вводный текст...\n"
+    "> Цитата\n"
+    "[СУТЬ]\n"
+    "...\n"
+    "[ПОЛЬЗА]\n"
+    "- пункт 1\n"
+    "- пункт 2\n"
+    "[РЕКОМЕНДАЦИЯ]\n"
+    "...\n"
+    "Пиши на русском, без JSON."
+)
+
+
+def _openai_format_bpplus(text: str) -> str:
+    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    model = os.getenv("NEWS_MODEL", "gpt-4o-mini")
+    if not api_key:
+        return text
+    payload = {
+        "model": model,
+        "temperature": 0.3,
+        "messages": [
+            {"role": "system", "content": BPPLUS_PROMPT},
+            {"role": "user", "content": text},
+        ],
+    }
+    data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    request = urllib.request.Request(
+        "https://api.openai.com/v1/chat/completions", data=data, method="POST"
+    )
+    request.add_header("Content-Type", "application/json")
+    request.add_header("Authorization", f"Bearer {api_key}")
+    with urllib.request.urlopen(request, timeout=60) as response:
+        body = response.read().decode("utf-8")
+    parsed = json.loads(body)
+    choices = parsed.get("choices", [])
+    if not choices:
+        return text
+    return (choices[0].get("message") or {}).get("content", "").strip() or text
+
 def _fetch_json(url: str, timeout: int = 20) -> dict:
     with urllib.request.urlopen(url, timeout=timeout) as response:
         payload = response.read().decode("utf-8")
@@ -352,6 +394,7 @@ def prepare_translated_articles(articles: list[dict[str, str]]) -> list[dict[str
         summary = item.get("summary", "").strip()
         text_en = title if not summary else f"{title}\n\n{summary}"
         text_ru = translate_text(text_en, translator)
+        text_ru = _openai_format_bpplus(text_ru)
         enriched.append(
             {
                 "title": title,

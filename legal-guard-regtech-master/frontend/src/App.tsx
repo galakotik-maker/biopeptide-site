@@ -13,6 +13,7 @@ import AIInsights from './pages/AIInsights'
 import ProtectedRoute from './components/ProtectedRoute'
 import AnalysisResults from './pages/AnalysisResult'
 import Journal from './pages/Journal'
+import ArticlePage from './pages/ArticlePage'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path='/compliance' element={<Compliance />} />
         <Route path='/regulations' element={<Regulations />} />
         <Route path='/journal' element={<Journal />} />
+        <Route path='/journal/:id' element={<ArticlePage />} />
 
         {/* Protected routes */}
         <Route path='/dashboard' element={
