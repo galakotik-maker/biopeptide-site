@@ -1,0 +1,4 @@
+[build]
+  base = "legal-guard-regtech-master/frontend"
+  command = "npm run build"
+  publish = "dist"
