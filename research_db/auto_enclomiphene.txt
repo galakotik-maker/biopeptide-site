@@ -1,0 +1,38 @@
+SOURCE_JOURNAL: Translational andrology and urology
+SOURCE_DOI: 10.21037/tau-2025-480
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Hochu G, Geyer-Kim I, Kim E
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+The rising prevalence of testosterone deficiency has led to increased use of exogenous testosterone therapy, including among men desiring fertility. Conventional testosterone replacement therapies (TRT) restore serum testosterone but suppress gonadotropins, resulting in impaired spermatogenesis. Consequently, newer approaches aim to normalize testosterone levels while preserving fertility potential. Intranasal testosterone provides short-acting, pulsatile testosterone delivery that mimics physiologic diurnal variation. Studies demonstrate normalization of serum testosterone while maintaining follicle-stimulating hormone (FSH) and luteinizing hormone (LH) within reference ranges, supporting the potential for preserved spermatogenesis. Similarly, oral testosterone undecanoate formulations offer noninvasive administration and short-acting pharmacokinetics. Clinical data show maintenance of FSH and LH within normal limits, albeit reduced from baseline, suggesting possible fertility preservation-though data on semen parameters remain limited. Concomitant administration of low-dose human chorionic gonadotropin (hCG) with exogenous testosterone has been shown to sustain intratesticular testosterone (ITT) and spermatogenesis. Multiple studies demonstrate that hCG maintains sperm production even with full gonadotropin suppression from TRT. Finally, enclomiphene citrate, a purified trans-isomer of clomiphene, stimulates the hypothalamic-pituitary-gonadal (HPG) axis, increasing endogenous testosterone while maintaining spermatogenesis. This paper provides an updated overview of these evolving modalities and advances since our 2013 publication, highlighting short-acting testosterone delivery, concomitant gonadotropin support, and selective estrogen receptor modulation. Continued research with larger, long-term studies is essential to confirm their safety, efficacy, and fertility outcomes.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT02775734
+SOURCE_DATE: 2016
+SOURCE_AUTHORS: Ain Shams University
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT02775734
+This is a formal academic record from ClinicalTrials.gov database
+
+This prospective randomized placebo-controlled double blind clinical trial will conducted in Ain Shams University maternity Hospital including 120 women diagnosed with clomiphene citrate resistant polycystic ovary syndrome. After laparoscopic ovarian drilling, they will be randomized to either receiving 50 mg oral clomiphene citrate twice daily and oral NAC 1,200 mg/day for 5 days starting from cycle day 2 to cycle day 6 (group 1 = 60 patients) or clomiphene citrate only (group 2 = 60 patients). The primary outcome will be biochemical pregnancy rate, secondary outcomes include Clinical pregnancy rate, ovulation rate, live birth rate, number of follicles ≥ 18 mm and endometrial thickness at triggering ovulation, mid- luteal sub-endometrial blood flow indices, and incidence of side effects.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT00239603
+SOURCE_DATE: 2005
+SOURCE_AUTHORS: Emory University
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT00239603
+This is a formal academic record from ClinicalTrials.gov database
+
+The purpose of this study is to evaluate the effectiveness of the OV-Watch to predict ovulation while women are taking clomiphene citrate.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT01607320
+SOURCE_DATE: 2012
+SOURCE_AUTHORS: Bruce Lessey
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT01607320
+This is a formal academic record from ClinicalTrials.gov database
+
+This study examines Raloxifene versus Clomiphene to induce ovulation in women with polycystic ovarian syndrome (PCOS).

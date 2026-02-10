@@ -1,0 +1,26 @@
+SOURCE_JOURNAL: International journal of molecular sciences
+SOURCE_DOI: 10.3390/ijms27010410
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Rodríguez MS, Martínez León AJ, Porras LS, Giraldo IA, Rojas E, Lavao FE, Martínez K
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Amazonian fruits are increasingly recognized for their functional properties due to their rich composition of bioactive metabolites. While species such as
+
+SOURCE_JOURNAL: Nutrients
+SOURCE_DOI: 10.3390/nu18010102
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Belka M, Stawny M, Masternak MM, Krajka-Kuźniak V
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Fisetin (3,3',4',7-tetrahydroxyflavone) is a naturally occurring flavonol in fruits and vegetables. It exhibits diverse biological activities, including anti-inflammatory, antioxidant, senolytic, and lipid-lowering properties. This review explores the molecular mechanisms underlying fisetin's hepatoprotective effects and evaluates its potential application in Intestinal Failure-Associated Liver Disease (IFALD), a severe complication associated with total parenteral nutrition (TPN). IFALD is characterized by inflammation, cholestasis, steatosis, oxidative stress, and dysregulated lipid and bile acid metabolism. Fisetin modulates several key signaling pathways, including NF-κB, Nrf2, AMPK, and SIRT1, leading to reduced inflammatory cytokine expression, enhanced antioxidant defenses, and improved lipid homeostasis. Fisetin shows potential anti-fibrotic and microbiota-modulating effects. More importantly, fisetin is recognized as a potent senolytic agent, selectively activating pro-apoptotic pathways in senescent cells, which are known sources of inflammation and tissue damage. However, despite its promising pharmacological profile, the poor bioavailability of fisetin remains a significant limitation, particularly for parenteral use. Emerging drug delivery systems such as liposomes and nanoparticles offer potential solutions. Given its broad spectrum of beneficial effects and favorable safety profile, fisetin represents a compelling candidate for future studies in the prevention and management of IFALD.
+
+SOURCE_JOURNAL: Archives of biochemistry and biophysics
+SOURCE_DOI: 10.1016/j.abb.2025.110716
+SOURCE_DATE: 2026
+SOURCE_AUTHORS: Fu Y, Ye C, Xu H, Zhu Y, Zhou W, Zhou K, Li Z, Qi J, Lin P
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Random flaps are extensively applied in reconstructive surgeries for wound coverage and tissue repair. However, distal flap ischemia and necrosis remain common postoperative complications, severely limiting their clinical utility. Among these, ischemic necrosis is the most critical challenge. Fisetin, a natural flavonoid with anti-inflammatory and autophagy-regulating properties, has shown potential in tissue protection. This study aimed to evaluate whether fisetin could reduce distal flap necrosis by enhancing autophagy and to elucidate the underlying mechanisms involved. The flaps' viability was evaluated by analyzing the survival area and blood flow measurement with laser Doppler techniques, as well as histological analysis. The molecular expressions that were quantified included autophagy, oxidative stress, pyroptosis, and angiogenesis markers using Western blotting, immunohistochemistry, and immunofluorescence. Additionally, these methods assisted in the evaluation of activity in the PI3K-Akt-mTOR signaling pathway in mice models. Our results demonstrated that fisetin improved the survival rate of ischemic flaps. These beneficial effects of fisetin were associated with enhanced autophagy, reduced oxidative stress and pyroptosis, and improved angiogenesis. Together, these mechanisms contributed to increased ischemic flap survival. Moreover, fisetin was found to enhance autophagy by inhibiting the PI3K/Akt/mTOR signaling pathway, subsequently reducing oxidative stress and pyroptosis, and ultimately improving ischemic flap survival. and Implications: Fisetin can improve the viability of ischemic flaps through the promotion of autophagy and reduction of pyroptosis, making it a potential candidate for clinical application.

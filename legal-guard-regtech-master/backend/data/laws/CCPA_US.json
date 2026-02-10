@@ -1,0 +1,149 @@
+{
+  "law_id": "CCPA_US",
+  "metadata": {
+    "name": "California Consumer Privacy Act (CCPA) as amended by the California Privacy Rights Act (CPRA)",
+    "jurisdiction": "US",
+    "type": "Data Protection",
+    "last_updated": "2025-06-27",
+    "version": "Consolidated text including CPRA amendments",
+    "effective_date": "2020-01-01 (CCPA), 2023-01-01 (CPRA)",
+    "authority": "California Privacy Protection Agency (CPPA)",
+    "official_url": "https://cppa.ca.gov/law_and_regulations/"
+  },
+  "applicability": {
+    "contract_types": ["Service Provider Agreement", "Data Processing Addendum", "Terms of Service", "Marketing Agreement", "Cloud Service Agreement"],
+    "business_size": ["For-profit entities doing business in California that meet one or more of: (1) >$25M annual gross revenue; (2) Annually buys, sells, or shares personal information of >100,000 consumers; (3) Derives >50% of annual revenue from selling or sharing personal information."],
+    "data_types": ["Personal Information", "Sensitive Personal Information (SPI)"],
+    "processing_activities": ["Collecting", "Selling", "Sharing", "Using", "Disclosing"],
+    "thresholds": ["Applies to businesses that meet the size/processing thresholds and collect data from California 'consumers' (residents)."]
+  },
+  "key_provisions": {
+    "Consumer_Rights": {
+      "section": "Cal. Civ. Code § 1798.100 et seq.",
+      "description": "Provides California consumers with a set of core rights to control their personal information.",
+      "requirements": [
+        "Right to Know: What personal information is collected, its source, the purpose of collection, and the categories of third parties to whom it is disclosed.",
+        "Right to Delete: Request the deletion of their personal information held by the business and its service providers.",
+        "Right to Correct: Request the correction of inaccurate personal information.",
+        "Right to Opt-Out of Sale/Sharing: Direct a business not to sell their personal information or share it for cross-context behavioral advertising.",
+        "Right to Limit Use of Sensitive Personal Information (SPI): Limit the use and disclosure of SPI to specific permitted purposes.",
+        "Right of Non-Discrimination: Cannot be discriminated against for exercising their rights."
+      ],
+      "exceptions": ["Numerous exceptions exist, for example, to comply with legal obligations, complete a transaction, or for certain internal uses."],
+      "penalties_for_breach": "Civil penalties up to $7,500 per intentional violation. Private right of action for consumers in case of certain data breaches.",
+      "ai_prompt_guidance": "Draft a 'Your California Privacy Rights' section for a website's privacy policy. The section must clearly list all key consumer rights (Know, Delete, Correct, Opt-Out, Limit Use of SPI) and provide at least two designated methods for submitting requests, such as a toll-free number and a web form."
+    },
+    "Service_Provider_Contracts": {
+      "section": "Cal. Civ. Code § 1798.140(ag)",
+      "description": "To avoid having a data disclosure be considered a 'sale' or 'sharing', a business must have a binding contract in place with its vendors (service providers/contractors).",
+      "requirements": [
+        "The contract must be in writing.",
+        "It must specify that the personal information is disclosed only for limited and specified purposes.",
+        "It must obligate the service provider to comply with all applicable sections of the CCPA/CPRA.",
+        "It must prohibit the service provider from selling or sharing the personal information.",
+        "It must prohibit retaining, using, or disclosing the information for any purpose other than the business purposes specified in the contract.",
+        "It must prohibit combining the personal information with data received from other sources (with some exceptions)."
+      ],
+      "exceptions": [],
+      "penalties_for_breach": "If a valid contract is not in place, the data disclosure may be deemed a 'sale', triggering consumer opt-out rights and potentially violating the law if no opt-out was offered.",
+      "ai_prompt_guidance": "Draft a CCPA/CPRA-compliant Data Processing Addendum for a Service Agreement. The addendum must define the business's and service provider's roles, specify the limited business purpose for processing, and include all mandatory prohibitions, such as the prohibition on selling/sharing the data or using it for any purpose outside the contract."
+    },
+    "Notice_at_Collection": {
+      "section": "Cal. Civ. Code § 1798.100(b)",
+      "description": "A business must inform consumers at or before the point of collection about the personal information it collects and the purposes for its use.",
+      "requirements": [
+        "Must list the categories of personal information to be collected.",
+        "Must list the purposes for which the information will be used.",
+        "If selling or sharing, must be disclosed.",
+        "Must provide a link to the full privacy policy.",
+        "Must state the length of time the business intends to retain each category of personal information."
+      ],
+      "exceptions": [],
+      "penalties_for_breach": "Up to $7,500 per intentional violation.",
+      "ai_prompt_guidance": "Generate a 'Notice at Collection' that can be displayed as a website footer banner or pop-up. The notice must be concise and include all required elements: categories of data collected, purpose of use, retention period, and a prominent link to the full privacy policy."
+    }
+  },
+  "penalties": {
+    "individual": {
+      "fine": "Private Right of Action for data breaches: Consumers can sue for statutory damages of $100 to $750 per consumer per incident, or actual damages, whichever is greater.",
+      "imprisonment": "N/A",
+      "other": []
+    },
+    "corporate": {
+      "fine": "Civil penalties up to $2,500 per violation, or up to $7,500 per intentional violation (or any violation involving a minor).",
+      "additional": ["Injunctions to stop non-compliant processing.", "Audits and risk assessments may be required by the CPPA."]
+    },
+    "risk_level": "High",
+    "enforcement_trend": "Increasing. The CPPA is actively enforcing the law, focusing on compliance with consumer opt-out requests (including Global Privacy Control signals), data minimization, and avoiding 'dark patterns' that make it difficult to exercise rights."
+  },
+  "contract_specific_requirements": {
+    "Service Provider Agreement": {
+      "mandatory_clauses": [
+        "Clause identifying the limited and specified business purpose(s) for the processing.",
+        "Prohibition on selling or sharing personal information.",
+        "Prohibition on retaining, using, or disclosing the personal information for any commercial purpose other than the specified business purposes.",
+        "Prohibition on combining data from different clients.",
+        "Requirement to assist the business in responding to consumer rights requests.",
+        "Requirement to notify the business of any determination that it can no longer meet its obligations."
+      ],
+      "recommended_clauses": [
+        "Audit rights for the business.",
+        "Specific data security requirements.",
+        "Breach notification procedures."
+      ],
+      "prohibited_clauses": [
+        "Any clause that grants the service provider rights to use the data for its own commercial benefit."
+      ],
+      "special_considerations": [
+        "The contract is the key mechanism that defines a vendor as a 'service provider'. Without a compliant contract, the vendor is a 'third party', and sharing data with them is a 'sale' or 'sharing' requiring an opt-out."
+      ]
+    }
+  },
+  "ai_prompt_templates": {
+    "general": "Generate clauses for a US-based website's privacy policy that comply with the California Consumer Privacy Act (CCPA) as amended by the CPRA. The clauses must describe consumer rights and the categories of personal information collected and shared.",
+    "Service Provider Agreement": "Draft a Data Processing Addendum to be attached to a Master Services Agreement between a 'Business' and a 'Service Provider' under the CCPA/CPRA. The addendum must contain all the contract clauses required by California Civil Code section 1798.140 to ensure the disclosure of data is not considered a 'sale' or 'sharing'.",
+    "risk_mitigation": "Review the following user sign-up flow and identify any potential 'dark patterns' that violate the CCPA/CPRA. Also, assess whether the 'Notice at Collection' provides all the required information, including retention periods."
+  },
+  "recent_updates": [
+    {
+      "date": "2024-09-01",
+      "description": "The CPPA issued an enforcement advisory focusing on 'dark patterns', cautioning that user interfaces must be easy to understand and offer symmetrical choices, making it as easy to say 'no' as it is to say 'yes'.",
+      "impact": "Increased scrutiny on UI/UX design for cookie banners, consent forms, and privacy settings.",
+      "action_required": "Businesses must review their web forms and consent flows to ensure they are clear, transparent, and do not nudge users towards less privacy-protective options."
+    }
+  ],
+  "enforcement_guidance": {
+    "common_violations": [
+      "Failing to recognize or process opt-out preference signals like the Global Privacy Control (GPC).",
+      "Making the process to opt-out difficult or confusing.",
+      "Not having a compliant 'Do Not Sell or Share' link.",
+      "Inadequate or missing 'Notice at Collection'.",
+      "Not having compliant contracts with service providers."
+    ],
+    "enforcement_priorities": [
+      "Honoring consumer opt-out requests.",
+      "Data minimization - collecting only necessary data.",
+      "Transparency through proper notices.",
+      "Data broker registration and compliance."
+    ],
+    "case_examples": [
+      {
+        "case": "Sephora, Inc. (August 2022)",
+        "violation": "Failed to disclose to consumers that it was selling their personal information, did not provide a 'Do Not Sell' link, and failed to process opt-out requests via user-enabled global privacy controls.",
+        "penalty": "$1.2 million settlement and a comprehensive compliance plan.",
+        "lesson": "The California regulator considers the exchange of personal information with third-party analytics providers for a benefit (e.g., analytics services) to be a 'sale' or 'sharing'. A business must honor global opt-out signals like GPC automatically."
+      }
+    ]
+  },
+  "integration_points": {
+    "related_laws": [
+      {
+        "law_id": "VCDPA_US",
+        "relationship": "Virginia's Consumer Data Protection Act (VCDPA) is another major US state privacy law.",
+        "interaction": "They share similar principles, but CCPA has a broader definition of 'sale' and a private right of action for breaches, which VCDPA lacks. Businesses often build compliance programs to address the strictest elements of all applicable state laws."
+      }
+    ],
+    "international_frameworks": [],
+    "standards": ["NIST Privacy Framework"]
+  }
+}

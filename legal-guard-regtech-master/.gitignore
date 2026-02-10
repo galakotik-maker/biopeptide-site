@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+*.sqlite3
+
+# Node/React
+node_modules/
+dist/
+.next/
+.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

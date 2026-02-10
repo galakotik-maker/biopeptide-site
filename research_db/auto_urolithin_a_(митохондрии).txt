@@ -1,0 +1,26 @@
+SOURCE_JOURNAL: Food research international (Ottawa, Ont.)
+SOURCE_DOI: 10.1016/j.foodres.2025.118314
+SOURCE_DATE: 2026
+SOURCE_AUTHORS: Hu F, Liu X, Chen C, Liu Y, Xu X, Han L, He C, Wang M
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+The clinical translation of urolithin A (UA), an ellagitannin-derived metabolite with antioxidant and mitophagy-inducing properties, is hampered by its poor solubility, limited stability, and low oral bioavailability. To address these limitations, we developed a core-shell nanoplatform (UA@ZIF-8@CMG) comprising a ZIF-8 core for efficient encapsulation and a carboxymethyl β-glucan (CMG) shell for enhanced stability and potential targeting. The optimized formulation exhibited a high drug-loading capacity (12.65 %), markedly improved UA stability, and demonstrated pH-responsive release, with minimal leakage (22 %) under simulated gastric conditions followed by sustained release in the intestinal environment. In vitro studies revealed reduced cytotoxicity and a dual cellular uptake mechanism, involving putative Dectin-1-mediated endocytosis in macrophages and nonspecific uptake in intestinal cells. This uptake profile resulted in superior preservation of mitochondrial membrane potential and more effective ROS scavenging compared with free UA. The key innovation of this system lies in the synergistic ZIF-8@CMG architecture, which integrates robust protection, controlled release, and cell-type-specific uptake, thereby distinguishing it from previously reported delivery platforms. Collectively, this work presents a translatable strategy to enhance UA bioavailability and therapeutic performance, underscoring its promise for both nutraceutical and pharmaceutical applications.
+
+SOURCE_JOURNAL: Frontiers in pharmacology
+SOURCE_DOI: 10.3389/fphar.2025.1706111
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Ghosh S, Singh R, Vanwinkle ZM, McClain CJ, Vatsalya V, Haribabu B, Vemula PK, Jala VR
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Excessive alcohol consumption poses a significant global health concern, ranking as the world's third-largest risk factor for diseases and disabilities, contributing to 5.9% of all deaths worldwide. Among various disorders linked to alcohol misuse, alcohol-associated liver disease (ALD) is the most prominent. ALD patients often exhibit increased intestinal permeability, systemic inflammation, gut dysbiosis, and hepatic steatosis. No FDA-approved therapies are available to treat ALD or to resolve the pathological domains of alcohol-induced gut barrier dysfunction, inflammation, and steatosis. The goal of this study is to investigate the potential therapeutic role of the microbial metabolite Urolithin A' (UroA), in alleviating ALD. Caco-2 (monolayer colon epithelial) cells and AML12 (hepatocytes) cells were used to test the protective activities of UroA against EtOH-induced gut barrier dysfunction and lipid accumulation The results presented here demonstrate the efficacy of UroA as a potential therapeutic agent to protect against EtOH-induced disruption of tight junction proteins, inflammation, and lipogenesis both Our findings suggest that the simultaneous targeting of gut barrier dysfunction, inflammation, and hepatic steatosis by treatment with UroA may offer new possibilities for combating ALD. Moreover, our results suggest that UroA-mediated protective activities against EtOH-induced gut barrier dysfunction and inflammation in ALD are dependent on intestinal epithelial cell-AHR.
+
+SOURCE_JOURNAL: Biochemistry and biophysics reports
+SOURCE_DOI: 10.1016/j.bbrep.2025.102263
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Wojciechowska O, Jourdes M, Andrusiewicz M, Pokrzywa M, Karaźniewicz-Łada M, Jodynis-Liebert J, Teissedre PL, Kujawska M
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Mitochondria are key organelles that supply energy to the brain, and their dysfunction contributes to neurotoxicity induced by environmental toxins such as rotenone. Recently, oenological tannins (OTs) and their colonic metabolite, urolithin A (UA), have been emphasized due to their potential neuroprotective activity. However, their role in counteracting toxin-induced mitochondrial impairments remains unclear. Therefore, this study aimed to investigate the administration of OTs to rotenone (ROT)-induced mitochondrial dysfunction and oxidative stress, key contributors to neurotoxicity. We measured mitochondrial membrane potential (MMP), the activity of mitochondrial complex I (Grishchuk et al.), and aldehyde dehydrogenase 2 (ALDH2) to assess mitochondria and protein carbonyl (PC) levels. We also checked the presence of UA in the brain. Our results indicate that the OTs treatment restored MMP, increased MCI and ALDH2 activity, and decreased PC content in ROT-induced rats. Furthermore, we confirmed the presence of UA in the brains of the animals. While its exact contribution to the observed mitochondrial effects remains undetermined, this finding suggests a potential role of the gut-derived metabolite in neuroprotection. Thus, we conclude that OTs administration attenuates mitochondria-related neurotoxicity. We call for further mechanistic studies and the putative contribution of metabolites, including UA, to the demonstrated mitoprotective effect of OTs treatment.

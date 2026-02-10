@@ -1,0 +1,80 @@
+SOURCE_JOURNAL: Frontiers in pharmacology
+SOURCE_DOI: 10.3389/fphar.2025.1725255
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Kalinin MN, Khasanova DR
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+The optimal timing of anticoagulation resumption after acute ischemic stroke remains uncertain, particularly in patients at elevated risk of hemorrhagic transformation (HT). Although Cerebrolysin reduces HT incidence, its influence on dynamic HT risk and the safe anticoagulation window remains unclear. This In high-risk patients, Cerebrolysin significantly reduced symptomatic HT (HR 0.245; 95% CI 0.072-0.837; In IVT-treated MCA stroke patients with HTI 1-4, Cerebrolysin may reduce HT hazard and advance the risk-equilibrium point by approximately 1-2 days. These findings are preliminary and hypothesis-generating, suggesting that Cerebrolysin may allow earlier-but individualized-anticoagulation resumption in selected high-risk patients, pending prospective validation.
+
+SOURCE_JOURNAL: Journal of medicine and life
+SOURCE_DOI: 10.25122/jml-2025-0142
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: González JDSR, Tapia A
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Multimodal treatment of patients with a brain tumor primarily involves microsurgical excision, ideally radical, or at least subtotal resection. Tumors in deep or inaccessible locations may require biopsy followed by adjuvant therapy with chemotherapy, radiotherapy, or radiosurgery. Beyond controlling tumor growth, preserving neurological function and promoting brain plasticity are essential goals. Persistent inflammation and intracranial hypertension can trigger secondary injury through edema, excitotoxicity, and ischemia, potentially resulting in irreversible neuronal damage. Multimodal strategies, including neuroprotective measures such as Cerebrolysin administration, may help prevent or mitigate these secondary processes, supporting recovery and functional outcomes. Clinically, patients may present with headache, nausea, vomiting, seizures, or subtle cognitive and motor deficits, progressing in severe cases to deterioration of consciousness. Incorporating cerebroprotective interventions in perioperative management represents a promising approach to enhance recovery, functional independence, and quality of life in neurosurgical oncology patients.
+
+SOURCE_JOURNAL: The International journal of risk & safety in medicine
+SOURCE_DOI: 10.1177/09246479251410817
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Alexandrova EG, Abakumova TR, Ziganshina LE
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+ObjectiveTo analyse regulatory positions and drug policies of the Commonwealth of Independent States (CIS), compared to those of the EU, UK, USA i of the nootropics, used in Russia for Alzheimer's disease.MethodsWe searched E-library to reveal the list of nootropics used and studied in Russia for Alzheimer's disease. We assessed official pharmaceutical registries of nine countries for registration status of identified nootropics, 7 National Essential Medicines Lists (EML), and four clinical practice guidelines (CPG) on Alzheimer's disease. We compared the results of Russia with other countries regulatory and policy positions.ResultsE-Library searches identified 11 nootropicspiracetam, citicoline, idebenone, vinpocetine, choline alfoscerate, Cerebrolysin®, Kortexin®, ethylmethylhydroxypyridine succinate, glycine, nicergoline, nimodipine. Eight nootropic have registration for use in all CIS countries (excluding idebenone, nimodipine), four (piracetam, nimodipine, nicergoline, idebenone) - in UK, nimodipine - in the USA, and idebenone - in EU. National EMLs included: nine nootropics (Russia), 8 - Belarus and Kazakhstan, 4 - Uzbekistan, 2 - Armenia. The studied nootropic agents are not included on the WHO Model EML and on the National EML of the Kyrgyz Republic. They are not listed in the CPG for Treatment of dementia and Alzheimer's disease in the USA, the EU, and the UK. Russian CPGs for Alzheimer's disease recommend Cerebrolysin® and choline alfoscerate.ConclusionsThe studied nootropics are registered for use and listed on National EMLs of Russia, Armenia, Belarus, Kazakhstan, Uzbekistan. None is included on the WHO Model EML and the National EML of Kyrgyzstan, Only CPG of the RF recommend using two nootropics as adjuvant therapy of Alzheimer's disease, Cerebrolysin® and choline alfoscerate. CPG of the European Union, the United Kingdom, and the USA do not mention nootropics as potential treatment options for Alzheimer's disease.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT05807503
+SOURCE_DATE: 2020
+SOURCE_AUTHORS: Pomeranian Medical University Szczecin
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT05807503
+This is a formal academic record from ClinicalTrials.gov database
+
+Traumatic Brain Injury TBI is one of the most common causes of death and recovery failure worldwide. Each element of treatment, starting from possible surgical treatment, patient monitoring and neuroprotective treatment, can be important in the overall outcome of patients' treatment. More and more elements of treatment are discussed in the literature in the multimodal approach to the patient with a trauma to the central nervous system. Cerebrolysin is a drug with a proven beneficial effect on the prognosis of patients with TBI. In our trial we stated the hypothesis that Cerebrolysin in combination with multimodal monitoring and surgical craniotomy is beneficial for the patients. In retrospective analysis we divided the patients into two groups : with and without cerebrolysin. We also analyzed how cerebrolysin influences the treatment results with the combination with additional neuromonitoring of both invasive intracranial pressure (ICP) measurement and non-invasive saturation in the jugular vein, nirs, ultrasound of the optic nerve diameter. We also analyzed if there is any change in the results of treatment after combining Cerebrolysin with another neuroprotective drug : amantadine. We also analyzed the influence of craniotomy combined with cerebrolysin treatment. In an observational study, we collected information on 56 patients.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT04830943
+SOURCE_DATE: 2020
+SOURCE_AUTHORS: Assiut University
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT04830943
+This is a formal academic record from ClinicalTrials.gov database
+
+The loss of smell and taste is a prominent symptom of COVID-19. Studies found that patterns of smell loss due to Covid-19 infection differ from that of other respiratory viruses being much more profound in the Covid-19 patents and did not associate with runny, congested, or blocked-up nose. The researchers suggest that smell and taste testing can be used for fast COVID-19 screening. Studies found that the Covid-19 virus has similarities with severe acute respiratory syndrome coronavirus (SARS-CoV), which has been reported to enter the brain, via smell receptors in the nose. The sudden onset and relatively fast recovery in some patients suggest that COVID-19 anosmia is not caused by damage to the central nervous system but rather by the loss of smell information before it gets to the brain (smell receptors). They also found that it has different behavior from other respiratory viruses as it causes over-reaction of the immune system (or a cytokine storm). Trials to treat post-COVID anosmia using local steroid applications, snifﬁng of strong odors or scents or use of different vitamins (for several weeks to months) did not provide rapid, satisfactory or even significant recovery of olfactory dysfunction. Fortunately, the olfactory neurons can regenerate, however, studies reported variable prognoses, some patients recovered within weeks which others may have persistent deficits for months or even a year. In this study, the researchers hypothesize that cerebrolysin, a drug of neurotrophic and neuroprotective properties, can be used to treat patients with persistent post-COVID anosmia or ageusia or promote functional recovery of smell and taste deficits.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT04751136
+SOURCE_DATE: 2016
+SOURCE_AUTHORS: Mansoura University Children Hospital
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT04751136
+This is a formal academic record from ClinicalTrials.gov database
+
+Down syndrome is a genetic disorder that causes delay in both physical growth and mental development. It is the most frequently reported chromosomal abnormality and the most common genetic syndrome.
+
+Down syndrome is caused by trisomy of all or part of the genetic material of human chromosome 21. It is now estimated that 94% of individuals with Down syndrome have an extra chromosome 21 as a result of meiotic non-disjunction, or the abnormal segregation of chromosomes during maternal gamete formation and of the remaining 5%, less than 1% is due to somatic mosaicism and the rest is due to chromosome 21 translocations.
+
+The estimated incidence of Down syndrome is between 1 / 1,000 to 1 / 1,100 live births worldwide. In Egypt, the incidence of Down syndrome has been reported to be 1 / 1000 live births.
+
+Down syndrome is characterized by intellectual disability, short stature, distinctive facial characters and a number of co-morbidities including cardiac and digestive anomalies, thyroid problems, and childhood leukemia.
+
+Down syndrome infants will likely experience delays in certain areas and aspects of development. However, they will achieve all of the same milestones as other normal children, just on their own timetable.
+
+According to recent studies, the Down syndrome behavioral phenotype includes relative strengths in some aspects of visuo-spatial processing and social functioning as well as relative deficits in verbal processing. Language has been described as a "major area of deficit" in Down syndrome individuals with particular difficulties manifested in expressive language.
+
+Due to this high incidence of Down syndrome in Egypt and the associated co-morbidities, governmental care directed to this syndrome and other handicapping conditions has increased tremendously in the past few years to the extent that Down syndrome phenotype has become a phobia and many parents and/or physicians referred normal babies for karyotype due to either suspicion of chromosomal anomalies or just for reassurance of their parents.
+
+Although there has been enormous progress in the management of the physical aspects of Down syndrome e.g. repair of heart defects, little advancement has been made to prevent deterioration of cognitive function in these individuals. As a result, the dramatic increase in life expectancy of children with Down syndrome in the past few decades has not been paralleled with concurrent treatment for cognitive disabilities. Therefore, it has remained the most common cause of cognitive dysfunction in children.
+
+The pathogenesis of cognitive deficits and motor disabilities in Down syndrome individuals can be attributed to diminished number and size of neuronal density, progressive neuronal degeneration, impairment of neurogenesis, and reduction in dendrite formation as well as spine density which results in disruption of synaptic function and plasticity. Therefore, many of these individuals develop increasing problems with learning and memory in later life.
+
+Cerebrolysin® is a neurotrophic peptidergic mixture isolated from pig brain. It is produced by standardized enzymatic breakdown of lipid-free porcine brain proteins .
+
+It acts similar to endogenous neurotrophic factors in the form of promoting neuronal sprouting, stimulating neurogenesis, enhancing neuronal plasticity, and improving learning and memory.
+
+Several studies demonstrated that Cerebrolysin® can be used safely in the management of children with any of the following medical conditions: minimal cerebral dysfunction, resistant forms of nocturnal enuresis, neurosensory hypoacusis, attention deficit hyperkinetic disorder, autism and Asperger syndrome.
+
+The overall aim of the study is to assess the effect of Cerebrolysin® on neurocognitive development of infants with Down syndrome.

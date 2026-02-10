@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.local
+
+# System files
+.DS_Store
+.vscode/
+
+# Logs and temp files
+*.log
+content_queue/
+__pycache__/
+
+# Dependencies
+node_modules/
+venv/

@@ -1,0 +1,26 @@
+SOURCE_JOURNAL: Cellular signalling
+SOURCE_DOI: 10.1016/j.cellsig.2025.112342
+SOURCE_DATE: 2026
+SOURCE_AUTHORS: Mao K, Zhu W, Sun H, Zheng H, Fu Z
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Senescence of vascular endothelial cells (ECs) and smooth muscle cells is pivotal in vascular aging. While the long non-coding RNA JPX has been shown to induce smooth muscle cell senescence, its role in EC senescence remains unknown. Senolytics (dasatinib + quercetin, D + Q) can eliminate senescent cells and attenuate the senescence-associated secretory phenotype (SASP), but their mechanisms in ECs are unclear. Here, we investigated the interplay between Senolytics and JPX in human umbilical vein endothelial cells (HUVECs). Using a lipopolysaccharide (LPS)-induced senescence model, we found that Senolytics alleviated endothelial senescence while suppressing the upregulation of JPX observed in senescent HUVECs. Functional assays showed that JPX knockdown inhibited, whereas JPX overexpression aggravated, EC senescence. Mechanistically, JPX interacted with bromodomain-containing protein 4 (BRD4) and transcription factor p65 to form a JPX-BRD4-p65 complex that promoted SASP expression. In vivo, Senolytics disrupted this complex and effectively mitigated endothelial senescence. Collectively, our study identifies JPX as a key regulator of vascular endothelial senescence and reveals that Senolytics exert anti-senescent effects by antagonizing the JPX-BRD4-p65 complex, providing novel mechanistic insights and potential therapeutic targets for vascular aging-related diseases.
+
+SOURCE_JOURNAL: Obesity surgery
+SOURCE_DOI: 10.1007/s11695-025-08417-z
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Fazeli SA, Soleimani Samarkhazan H
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Metabolic bariatric surgery (MBS) treats severe obesity, but long-term benefits are often lost to weight regain and metabolic relapse driven by persistent molecular imprints. This narrative review synthesizes recent evidence and examines epigenetic, inflammatory, mitochondrial, and microbiota mechanisms underlying metabolic memory after MBS. Key imprints include altered adipose transcriptomes (e.g., lower IGF1 and GPX3), persistent NLRP3 inflammasome activation, and gut dysbiosis with variable, individual patterns. We highlight how these mechanisms drive clinical outcomes such as type 2 diabetes recurrence and residual cardiovascular risk, with tissue-specific epigenetic retention slowing renal and cardiac recovery. We evaluate evidence-based strategies to counteract or modulate metabolic memory. These include the strategic selection of bariatric procedure, preoperative metabolic optimization, Mediterranean diets rich in polyphenols, GLP-1/GIP co-agonists, senolytics (e.g., dasatinib + quercetin), and autologous fecal microbiome transplantation. Emerging preclinical approaches like CRISPR-dCas9 epigenetic editing and exploratory strategies like vagal neuromodulation show theoretical promise in targeting obesogenic memory pathways but remain far from clinical application. The review underscores the need for longitudinal multi-omics cohorts and metabolic memory biomarkers (e.g., PPARGC1A methylation, CCL25) to enable personalized interventions. By targeting metabolic memory proactively, MBS can evolve from weight-loss procedure to a durable reset of metabolic set points. However, it is crucial to acknowledge that many proposed strategies are derived from preliminary studies with limited sample sizes and follow-up, necessitating further validation in large-scale trials.
+
+SOURCE_JOURNAL: Frontiers in aging neuroscience
+SOURCE_DOI: 10.3389/fnagi.2025.1627921
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Jaganathan R, Iyaswamy A, Krishnamoorthi S, Thakur A, Durairajan SSK, Yang C, Wankhar D
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Aging is a normal process causing deterioration in normal brain function and is inevitable. The aging process is described by the buildup of senescent cells and a decline in the ability to maintain essential homeostatic functions. Cellular aging represents a critical process where cells undergo cell cycle arrest in response to stress and neuronal damage. Many neurodegenerative disorders are closely linked to cellular senescence caused by oxidative stress, ROS generation, and DNA damage. Therefore, targeting cellular senescence is essential for the therapy of neurodegenerative disorders. This review outlines the understanding of cellular senescence, its role in the aging process, signaling pathways, autophagy, lysosomal biogenesis, and its contribution to various neurodegenerative disorders. The findings highlight the relationship between cellular senescence and neurodegenerative disorders, emphasizing its pathological role. Current evidence indicates that senolytic drugs, notably phytochemicals such as dasatinib, quercetin, and fisetin, could serve as therapeutic approaches to target senescent cells and improve outcomes in neurodegenerative illnesses. This review conclusively addresses the possibility of senolytic interventions for the treatment of neurodegenerative diseases. It will encourage researchers to identify novel compounds or phytochemicals that could be used as senolytic drugs for treating numerous neurodegenerative disorders.

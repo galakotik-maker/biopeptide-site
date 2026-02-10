@@ -1,0 +1,62 @@
+SOURCE_JOURNAL: AACE endocrinology and diabetes
+SOURCE_DOI: 10.1016/j.aed.2025.09.012
+SOURCE_DATE: 2026
+SOURCE_AUTHORS: Mohammed A, Mishra S
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) improve glycemic control, promote weight loss, and enhance cardiovascular outcomes. However, their effects on lean mass in older adults are unclear. This case report describes how GLP-1 RAs influenced body composition in 2 older women. We measured the body compositions of 2 older women with obesity, who were unable to lose weight through lifestyle changes alone, before and after taking GLP-1 RAs. The first patient (65 years old) received weekly subcutaneous injections of tirzepatide. She had a moderate reduction in body mass index over 4 months, with a modest reduction in fat mass and a substantial reduction in lean mass. The second patient (79 years old) received weekly subcutaneous injections of semaglutide and had a moderate reduction in body mass index over 6 months, with a substantial reduction in fat mass and a modest gain in lean mass. The patient with greater muscle loss was less physically active and tracked food intake less precisely than the patient with less muscle loss. Differences in lean mass loss between patients may be influenced by exercise and calorie counting. These findings highlight the importance of lifestyle modifications for preserving lean mass. However, because only 2 patients were studied, the results are entirely anecdotal and therefore cannot be generalized to larger populations. Clinicians should consider recommending individualized exercise programs and dietary strategies for older patients taking GLP-1 RAs. Routine assessment of body composition may help guide interventions and optimize clinical outcomes.
+
+SOURCE_JOURNAL: Problemy endokrinologii
+SOURCE_DOI: 10.14341/probl13677
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Troshina EA, Antsiferov MB, Ametov AS, Galstyan GR, Markova TN, Romantsova TI, Mazurina NV, Koteshkova OM
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+On June 26, 2025, a meeting of the expert working group was held in Moscow. The discussion focused on the personalized approach of tirzepatide («Tirzetta®») and semaglutide («Velgia Eco®») in patients with excess body weight, obesity, and type 2 diabetes. Following the meeting, the objective was set to develop a consensus-based algorithm for prescribing these drugs to ensure their effective use in Russian clinical practice.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT06721507
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Marlene Starr
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT06721507
+This is a formal academic record from ClinicalTrials.gov database
+
+This clinical trial will test whether preoperative tirzepatide treatment improves outcomes after bariatric surgery. The outcome of this study could impact therapeutic guidelines for the multimodal treatment of obesity.
+
+The major objectives are:
+
+1. To evaluate whether pre-operative tirzepatide treatment reduces tissue and circulating inflammatory markers at the time of surgery.
+2. To establish the relationship of these changes with postoperative improvements in weight loss, metabolic and inflammatory profiles, comorbidity resolution (glycemic control, blood pressure, lipid profile), and 30-day surgical complications. Researchers will compare data from patients taking tirzepatide to data from patients not taking tirzepatide before their planned bariatric surgery to see if tirzepatide reduces inflammation and improves health outcomes after bariatric surgery.
+
+Participants will:
+
+Take or not take tirzepatide, depending on what study group they are in, once a week for 3 months.
+
+Visit the endocrine clinic once a month for 3 months to be prescribed the drug and for checkups regarding side effects due to the drug.
+
+Keep a diary to document taking the drug and any side effects. Continue with their planned bariatric surgery and post-surgery follow-ups according to their healthcare provider.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT07226947
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Massachusetts General Hospital
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT07226947
+This is a formal academic record from ClinicalTrials.gov database
+
+The goal of this study is to learn if a smartwatch that measures activity level and body composition, combined with exercise reminders, can safely improve strength and muscle mass in people who recently started or are planning to start treatment with incretin therapy (liraglutide, semaglutide, tirzepatide or retatrutide), also known as glucagon-like peptide 1 receptor agonist (GLP-1 RA) medications.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT04172987
+SOURCE_DATE: 2020
+SOURCE_AUTHORS: Eli Lilly and Company
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT04172987
+This is a formal academic record from ClinicalTrials.gov database
+
+The purpose of this study is to look at how the body processes the commonly prescribed birth control pill, ethinylestradiol + norgestimate (EE/NGM), in healthy female participants and the effect of tirzepatide on how EE/NGM is processed by the body. Information about any side effects that may occur will also be collected.
+
+Screening is required within 28 days prior to the start of the study. For each participant, the study will last about 20 weeks, including screening.

@@ -1,0 +1,58 @@
+export type JournalArticle = {
+  id: string
+  title: string
+  quote: string
+  essence: string
+  benefits: string[]
+  recommendation: string
+  date: string
+  expert_view: string
+  lite_view: string
+  description: string
+}
+
+export const journalData: JournalArticle[] = [
+  {
+    "id": "bpplus-1770710818",
+    "title": "",
+    "quote": "",
+    "essence": "",
+    "benefits": [],
+    "recommendation": "",
+    "date": "2026-02-10",
+    "expert_view": "Краткий разбор механизма и ключевых эффектов.",
+    "lite_view": "Короткая выжимка для быстрого чтения.",
+    "description": ""
+  },
+
+  {
+    "id": "bpplus-1770710696",
+    "title": "",
+    "quote": "",
+    "essence": "",
+    "benefits": [],
+    "recommendation": "",
+    "date": "2026-02-10",
+    "expert_view": "Краткий разбор механизма и ключевых эффектов.",
+    "lite_view": "Короткая выжимка для быстрого чтения.",
+    "description": ""
+  },
+
+  {
+    "id": "bpplus-1770710251",
+    "title": "[ВСТУПЛЕНИЕ]",
+    "quote": "",
+    "essence": "",
+    "benefits": [
+      "Эффект 1",
+      "Эффект 2",
+      "Эффект 3"
+    ],
+    "recommendation": "",
+    "date": "2026-02-09",
+    "expert_view": "Краткий разбор механизма и ключевых эффектов.",
+    "lite_view": "[ВСТУПЛЕНИЕ]. Эффект 1",
+    "description": "## [ВСТУПЛЕНИЕ]\n\n## Польза\n\n- Эффект 1\n- Эффект 2\n- Эффект 3"
+  },
+
+]

@@ -1,0 +1,163 @@
+{
+  "law_id": "EMPLOYMENT_ACT_MY",
+  "metadata": {
+    "name": "Employment Act 1955",
+    "jurisdiction": "MY",
+    "type": "Employment",
+    "last_updated": "2025-06-27",
+    "version": "Includes Employment (Amendment) Act 2022",
+    "effective_date": "1957-06-01 (Original), 2023-01-01 (2022 Amendments)",
+    "authority": "Jabatan Tenaga Kerja Semenanjung Malaysia (JTKSM) / Department of Labour Peninsular Malaysia",
+    "official_url": "https://jtksm.mohr.gov.my/en/legislation/act"
+  },
+  "applicability": {
+    "contract_types": ["Employment Contract", "Fixed-Term Contract", "Part-Time Contract"],
+    "business_size": ["All sizes"],
+    "data_types": [],
+    "processing_activities": [],
+    "thresholds": ["As of Jan 1, 2023, the Act applies to ALL employees in the private sector in Peninsular Malaysia, regardless of wage level. However, certain monetary-related provisions (e.g., overtime, rest day pay) only apply to employees earning RM4,000/month or less, and those engaged in manual labour."]
+  },
+  "key_provisions": {
+    "Hours_of_Work": {
+      "section": "Section 60A",
+      "description": "Regulates an employee's hours of work.",
+      "requirements": [
+        "Maximum working hours are reduced from 48 to 45 hours per week.",
+        "An employee cannot be required to work more than 8 hours in one day or more than 5 consecutive hours without a rest period of at least 30 minutes.",
+        "Overtime must be paid at a minimum rate of 1.5 times the hourly rate of pay."
+      ],
+      "exceptions": ["Does not apply to employees engaged in work which by its nature involves long hours of inactive or stand-by period."],
+      "penalties_for_breach": "Fine up to RM50,000.",
+      "ai_prompt_guidance": "Generate a 'Working Hours' clause for a Malaysian employment contract. The clause must state that normal working hours shall not exceed 45 hours per week. It should also specify the overtime rate of 1.5 times the hourly pay for any work performed outside of normal hours."
+    },
+    "Leave_Entitlements": {
+      "section": "Sections 37, 60E, 60F",
+      "description": "Provides for minimum paid leave entitlements, including maternity, paternity, annual, and sick leave.",
+      "requirements": [
+        "Paid annual leave entitlement ranges from 8 to 16 days depending on years of service.",
+        "Paid sick leave entitlement ranges from 14 to 22 days. Hospitalisation leave is a separate 60 days.",
+        "Female employees are entitled to 98 days of paid maternity leave.",
+        "Married male employees are entitled to 7 consecutive days of paid paternity leave (for the first five confinements)."
+      ],
+      "exceptions": ["Paternity leave requires the male employee to have been employed for at least 12 months."],
+      "penalties_for_breach": "Fine up to RM50,000.",
+      "ai_prompt_guidance": "Draft the 'Leave Entitlements' section of an employment contract. It must specify annual leave, sick leave, maternity leave (98 days), and paternity leave (7 days) entitlements that meet or exceed the statutory minimums."
+    },
+    "Termination_of_Contract": {
+      "section": "Section 12",
+      "description": "Stipulates the minimum notice period required for either party to terminate the contract of service.",
+      "requirements": [
+        "Less than 2 years of service: 4 weeks' notice.",
+        "2 years or more but less than 5 years: 6 weeks' notice.",
+        "5 years or more: 8 weeks' notice.",
+        "Either party can pay a sum equal to the amount of wages for the notice period in lieu of notice."
+      ],
+      "exceptions": ["Termination without notice is allowed in cases of wilful breach by the other party (e.g., misconduct)."],
+      "penalties_for_breach": "Failure to give proper notice requires payment in lieu.",
+      "ai_prompt_guidance": "Generate a 'Termination of Employment' clause. The clause must clearly state the required notice periods for termination by either the employer or employee, ensuring the periods are compliant with Section 12 of the Employment Act 1955."
+    },
+    "Flexible_Working_Arrangement": {
+      "section": "Section 60P & 60Q",
+      "description": "A new provision allowing employees to apply for flexible working arrangements (FWA) regarding hours, days, or place of work.",
+      "requirements": [
+        "Employee must apply in writing.",
+        "Employer must approve or refuse the application in writing within 60 days.",
+        "If refused, the employer must state the grounds for refusal (e.g., huge additional cost, detrimental impact on productivity)."
+      ],
+      "exceptions": [],
+      "penalties_for_breach": "Fine up to RM50,000.",
+      "ai_prompt_guidance": "Generate a 'Flexible Working Arrangement' policy clause for an employee handbook. The clause should explain the employee's right to apply for FWA, the application process, and the potential grounds for refusal as per the Act."
+    }
+  },
+  "penalties": {
+    "individual": {
+      "fine": "N/A (Penalties are on the employer).",
+      "imprisonment": "N/A",
+      "other": []
+    },
+    "corporate": {
+      "fine": "Generally up to RM50,000 per offence for many of the new/amended provisions. Fine up to RM100,000 for offences related to forced labour or hiring foreign employees without approval.",
+      "additional": ["Orders from the Labour Court to pay unpaid wages or benefits.", "Reputational damage."]
+    },
+    "risk_level": "Medium to High",
+    "enforcement_trend": "Increasing. The Department of Labour (JTKSM) is actively enforcing the new amendments, particularly the 45-hour work week and minimum wage compliance."
+  },
+  "contract_specific_requirements": {
+    "Employment Contract": {
+      "mandatory_clauses": [
+        "Job Title/Position.",
+        "Wages and salary details (including pay period).",
+        "Working Hours.",
+        "Leave Entitlements (Annual, Sick, Maternity, Paternity).",
+        "Termination Notice Period.",
+        "EPF/SOCSO contributions."
+      ],
+      "recommended_clauses": [
+        "Duties and Responsibilities.",
+        "Confidentiality Clause.",
+        "Probationary Period.",
+        "Retirement Age."
+      ],
+      "prohibited_clauses": [
+        "Any clause that provides for terms less favourable than the statutory minimums (e.g., a 2-week termination notice period).",
+        "Clauses that unreasonably restrict an employee's right to join a union."
+      ],
+      "special_considerations": [
+        "For any employment longer than one month, a written contract ('statement of particulars') is legally required under Section 10.",
+        "The expansion of the Act to cover all employees means that even high-income earners are now protected by its core provisions."
+      ]
+    }
+  },
+  "ai_prompt_templates": {
+    "general": "Generate a standard employment contract for a full-time, permanent employee in Peninsular Malaysia that is fully compliant with the Employment Act 1955 as amended in 2022.",
+    "Employment Contract": "Draft a comprehensive employment contract for a new hire in Malaysia. Ensure the clauses for working hours (max 45/week), maternity leave (98 days), paternity leave (7 days), and termination notice periods (4/6/8 weeks) are explicitly stated and comply with the latest amendments to the Employment Act 1955.",
+    "risk_mitigation": "Review the following existing employment contract. Identify any clauses that are now non-compliant due to the 2022 amendments to the Malaysian Employment Act. Focus on working hours, leave entitlements, and termination clauses. Suggest specific revisions to bring the contract into compliance."
+  },
+  "recent_updates": [
+    {
+      "date": "2023-01-01",
+      "description": "The Employment (Amendment) Act 2022 and its related orders came into full force.",
+      "impact": "Massive expansion of the Act's scope to all employees. Reduced weekly working hours to 45. Increased maternity and introduced paternity leave. Mandated a procedure for flexible working requests. Increased penalties for non-compliance.",
+      "action_required": "All employers in Malaysia were required to review and update their employment contracts, handbooks, and policies to align with these significant changes."
+    }
+  ],
+  "enforcement_guidance": {
+    "common_violations": [
+      "Failure to pay correct overtime rates.",
+      "Not adhering to the new 45-hour work week.",
+      "Incorrect calculation of wages for an incomplete month's work.",
+      "Denying statutory leave entitlements (especially the new paternity leave).",
+      "Making unlawful deductions from salary."
+    ],
+    "enforcement_priorities": [
+      "Compliance with the national Minimum Wages Order.",
+      "Adherence to the 45-hour weekly work limit.",
+      "Proper payment of statutory benefits like overtime and termination benefits.",
+      "Ensuring foreign workers are employed with prior approval from the Director General."
+    ],
+    "case_examples": [
+      {
+        "case": "General Labour Court cases",
+        "violation": "The most common disputes brought before the Labour Office involve claims for unpaid wages, overtime, or termination benefits.",
+        "penalty": "The Director General can issue an order for the employer to pay the outstanding amounts. Failure to comply with the order is an offence, carrying a fine of up to RM10,000.",
+        "lesson": "Basic monetary entitlements are strictly enforced. Employers must maintain proper records of hours worked and wages paid to defend against such claims. Contractual terms must be clear and compliant from the outset."
+      }
+    ]
+  },
+  "integration_points": {
+    "related_laws": [
+      {
+        "law_id": "Industrial_Relations_Act_1967",
+        "relationship": "Governs the relationship between employers, employees, and trade unions, including dispute resolution.",
+        "interaction": "While the Employment Act sets the minimum terms, a claim for unfair dismissal (e.g., termination without just cause and excuse) is brought under the Industrial Relations Act, even if the contractual notice period was followed."
+      },
+      {
+        "law_id": "PDPA_MY",
+        "relationship": "The Personal Data Protection Act governs the processing of employee data.",
+        "interaction": "Employers must comply with the PDPA when collecting, using, and storing employee personal data (e.g., for payroll, insurance, performance reviews), requiring proper notice and consent."
+      }
+    ],
+    "international_frameworks": ["ILO Conventions (e.g., on forced labour, maternity protection)"],
+    "standards": []
+  }
+}

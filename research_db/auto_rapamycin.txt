@@ -1,0 +1,58 @@
+SOURCE_JOURNAL: Horticulture research
+SOURCE_DOI: 10.1093/hr/uhaf278
+SOURCE_DATE: 2026
+SOURCE_AUTHORS: Wang Y, Gouaille L, Meng J, Nicolas M, Ogé L, Jiang Z, Crespel L, Ding Y, Le Gourrierec J, Li G, Grappin P, Sakr S
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Plants continuously integrate metabolic and hormonal signals to coordinate growth, development, and responses to environmental stimuli. Among these signals, sugars and strigolactones (SLs) have emerged as central regulators. Beyond serving as metabolic fuels, sugars act as signaling molecules that govern key developmental transitions and stress responses. SLs, a relatively recent addition to the phytohormone family, play pivotal roles in shaping plant architecture, modulating resource allocation, and facilitating environmental adaptation. While the individual signaling functions of sugars and SLs are well documented, their crosstalk remains an emerging and largely underexplored area of plant biology. This review synthesizes current knowledge on both the independent and interactive roles of sugar and SL signaling across critical developmental processes, including seed germination, hypocotyl elongation, root and shoot architecture, flowering, senescence, and plant responses to abiotic and biotic stress. By analyzing antagonistic and synergistic interactions, we point out several potential integrative hubs where metabolic and hormonal signals converge to fine-tune the final decision. Notably, the nodal roles of
+
+SOURCE_JOURNAL: Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences
+SOURCE_DOI: 10.11817/j.issn.1672-7347.2025.250416
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Feng L, Chen Y, Wang C, Zhu W, Zhang C, Huang Q, Song W
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Glaucoma is pathologically characterized by the progressive loss of retinal ganglion cells (RGCs). Currently, effective strategies for protection of RGCs in glaucoma remain lacking, and nanomaterials represent promising drug-delivery carriers. This study aims to investigate the effects of zinc-loaded magnesium oxide nanoparticles (MgO-Zn²⁺ nanoparticles, MgO-Zn NPs) on glutamate-induced RGC injury, and to evaluate their in vivo and in vitro biocompatibility and neuroprotective potential. MgO-Zn NPs were prepared and characterized by transmission electron microscope and energy-dispersive spectroscopy. In vitro cytotoxicity was systematically evaluated in the R28 rat retinal precursor cell line using the cell counting kit-8 (CCK-8) assay. In vivo, an excitotoxic retinal injury model was established in C57/BL mice by intravitreal injection of N-methyl-D-aspartate (NMDA), followed by MgO-Zn NP intervention. RGC numbers and apoptosis were evaluated using terminal deoxynucleotidyl transferase-mediated dUTP nick end labeling (TUNEL) staining. Retinal-layer structure was examined by hematoxylin and eosin (HE) staining. Flash visual evoked potential (F-VEP) was used to evaluate RGC visual-conduction function, and RNA sequencing was performed to analyze pathways and functions of differentially expressed genes, with further validation of associated protein-expression differences. Transmission electron microscope and energy-dispersive spectroscopy confirmed the morphological and compositional characteristics of MgO-Zn NPs, indicating successful composite synthesis. CCK-8 results showed that MgO-Zn NPs at 75 µg/mL exhibited no cytotoxicity in R28 cells. After intravitreal injection of MgO-Zn NPs in mice, no significant ocular surface or corneal adverse reactions were observed, indicating favorable ocular tolerance. TUNEL staining showed that RGC numbers in the excitotoxic model were significantly lower than those in normal mice ( MgO-Zn NPs may serve as a dual-functional glaucoma treatment candidate, providing retinal-neuron protection while acting as an intraocular drug-delivery carrier.
+
+SOURCE_JOURNAL: Frontiers in immunology
+SOURCE_DOI: 10.3389/fimmu.2025.1705588
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Wang H, Zhou C
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Rosacea is a chronic inflammatory cutaneous disorder predominantly affecting the centrofacial region, whose pathogenesis is complex and not yet fully understood. In this review we summarized the latest significant advances in the pathogenesis of rosacea in recent years. In genomic studies, the application of bioinformatics techniques such as whole-genome sequencing has identified novel susceptibility genes and linked multiple pathogenic mechanisms. Neurovascular dysfunction resulting from abnormal neuropeptides expression and dysregulated amino acid metabolism constitutes an important pathogenic factor in rosacea. The TLR2/LL-37/mTORC1 signaling axis, as a core regulatory pathway in innate immunity has been elucidated in detail. In addition, the dysbiosis of skin and gut microbiota, together with the impairment of skin barrier function, is also closely associated with the onset and progression of this disease. The deeper understanding of the pathogenesis of rosacea will benefit the development of new drugs and promote individualized diagnosis and treatment.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT01649609
+SOURCE_DATE: 2012
+SOURCE_AUTHORS: Columbia University
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT01649609
+This is a formal academic record from ClinicalTrials.gov database
+
+BK virus infections after kidney transplant are increasing and can result in damage to the transplanted kidney. Currently, the universally accepted treatment is to decrease the strength of the antirejection medications but it is unclear what medications should be lowered and to what extent. The investigators propose to perform a study with patients who have BK virus detected in their blood during routine screening that appears to be increasing. The investigators will use two different strategies that involve different combinations of standard anti-rejection medications at lower dosages. Patients will be assigned to one of the two groups in a random manner across the two hospitals participating in the study. Patients will be followed for at least a year to determine if one strategy was more effective than the other in preventing an increase in the number of viruses in the blood stream and whether either one was more effective in reducing the negative impact of the infection on the functioning of the transplanted kidney.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT02109744
+SOURCE_DATE: 2014
+SOURCE_AUTHORS: University of Rochester
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT02109744
+This is a formal academic record from ClinicalTrials.gov database
+
+To evaluate the response to chemotherapy with the drug decitabine combined with rapamycin in the treatment of relapsed or refractory acute myeloid leukemia in patients of all ages, and in the treatment of newly diagnosed leukemia in those who are older than 65 when diagnosed.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT00775593
+SOURCE_DATE: 2008
+SOURCE_AUTHORS: Gruppo Italiano Malattie EMatologiche dell'Adulto
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT00775593
+This is a formal academic record from ClinicalTrials.gov database
+
+RATIONALE: Drugs used in chemotherapy, such as clofarabine, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Temsirolimus may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving clofarabine together with temsirolimus may kill more cancer cells.
+
+PURPOSE: This phase II trial is studying how well giving clofarabine together with temsirolimus works in treating older patients with relapsed or refractory acute myeloid leukemia.

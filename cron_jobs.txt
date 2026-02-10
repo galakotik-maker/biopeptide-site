@@ -1,0 +1,2 @@
+00 09 * * * cd /Users/gala.kotikmail.ru/Desktop/BioPeptidePlus_AI.AI && /usr/bin/python3 agency_poster.py >> cron.log 2>&1
+00 21 * * * cd /Users/gala.kotikmail.ru/Desktop/BioPeptidePlus_AI.AI && /usr/bin/python3 agency_poster.py >> cron.log 2>&1

@@ -1,0 +1,195 @@
+{
+  "law_id": "PDPA_MY",
+  "metadata": {
+    "name": "Personal Data Protection Act 2010 (Act 709)",
+    "jurisdiction": "MY",
+    "type": "Data Protection",
+    "last_updated": "2025-06-27",
+    "version": "Includes Personal Data Protection (Amendment) Act 2024 provisions",
+    "effective_date": "2013-11-15",
+    "authority": "Jabatan Perlindungan Data Peribadi (JPDP) / Department of Personal Data Protection",
+    "official_url": "https://www.pdp.gov.my/jpdpv2/undang-undang/akta-709/"
+  },
+  "applicability": {
+    "contract_types": ["Data Processing Agreement", "Service Agreement", "Employment Contract", "NDA", "Cloud Service Agreement", "Marketing Agreement"],
+    "business_size": ["All sizes, if processing personal data for commercial transactions."],
+    "data_types": ["Personal Data", "Sensitive Personal Data (including physical/mental health, political opinions, religious beliefs, criminal records, and biometric data as per 2024 amendment)"],
+    "processing_activities": ["Collecting", "Recording", "Holding", "Storing", "Organizing", "Adapting", "Retrieving", "Disclosing", "Transferring"],
+    "thresholds": ["Applies to any person who processes personal data in respect of commercial transactions. No minimum revenue threshold, but specific sectors are required to register as Data Users."]
+  },
+  "key_provisions": {
+    "General_And_Consent_Principle": {
+      "section": "Section 6",
+      "description": "Prohibits the processing of a data subject's personal data without their consent. Processing must be for a lawful purpose directly related to the data user's activity, necessary, and not excessive.",
+      "requirements": [
+        "Obtain explicit and valid consent before processing personal data.",
+        "For sensitive data, consent must be explicit.",
+        "Purpose of processing must be lawful and directly related to the business activity.",
+        "Data collected must be adequate for the purpose, not excessive."
+      ],
+      "exceptions": ["Processing is necessary for contract performance with the data subject.", "For compliance with a legal obligation.", "To protect the vital interests of the data subject.", "For the administration of justice."],
+      "penalties_for_breach": "Fine up to RM300,000 and/or imprisonment up to 2 years.",
+      "ai_prompt_guidance": "Generate a consent clause that is separate from other terms. It must clearly state the specific purposes for data processing. Use an active opt-in mechanism (e.g., unticked checkbox). Explain that consent can be withdrawn at any time and how to do it."
+    },
+    "Notice_And_Choice_Principle": {
+      "section": "Section 7",
+      "description": "Data users must provide a written notice to data subjects, in both English and Malay, explaining the data processing activities.",
+      "requirements": [
+        "Notice must be provided as soon as practicable.",
+        "Must describe the personal data being collected.",
+        "Must state the purpose of collection.",
+        "Must state the source of the data.",
+        "Must list the data subject's right to access and correct their data.",
+        "Must list the class of third parties to whom data may be disclosed.",
+        "Must state whether supplying the data is obligatory or voluntary."
+      ],
+      "exceptions": [],
+      "penalties_for_breach": "Fine up to RM300,000 and/or imprisonment up to 2 years.",
+      "ai_prompt_guidance": "Draft a bilingual (English and Bahasa Malaysia) privacy notice that includes all seven mandatory points from Section 7. The notice should be clear, concise, and easily accessible."
+    },
+    "Security_Principle": {
+      "section": "Section 9",
+      "description": "Data users (and Data Processors, post-amendment) must take practical steps to protect personal data from loss, misuse, modification, unauthorized access, or disclosure.",
+      "requirements": [
+        "Implement appropriate technical security measures (e.g., encryption, access controls).",
+        "Implement organizational measures (e.g., security policies, staff training).",
+        "Ensure data processors provide sufficient guarantees of security measures.",
+        "Prevent unauthorized access to stored data."
+      ],
+      "exceptions": [],
+      "penalties_for_breach": "Fine up to RM300,000 and/or imprisonment up to 2 years.",
+      "ai_prompt_guidance": "Generate a 'Data Security Obligations' clause for a Data Processing Agreement. The clause must require the data processor to implement specific technical and organizational measures, such as encryption, access control policies, regular security audits, and secure data disposal methods."
+    },
+    "Cross_Border_Data_Transfer": {
+      "section": "Section 129",
+      "description": "Restricts the transfer of personal data outside of Malaysia unless specific conditions are met. The 'whitelist' of approved countries is removed by the 2024 amendment.",
+      "requirements": [
+        "Transfer is allowed if the data subject has consented.",
+        "Transfer is necessary for the performance of a contract between the data subject and the data user.",
+        "Transfer is to a place with substantially similar data protection laws or that ensures an adequate level of protection (post-amendment).",
+        "Data user must take all reasonable precautions to ensure the data will be protected in the destination country."
+      ],
+      "exceptions": ["Transfer necessary for legal proceedings or to obtain legal advice.", "To protect the vital interests of the data subject."],
+      "penalties_for_breach": "Fine up to RM300,000 and/or imprisonment up to 2 years.",
+      "ai_prompt_guidance": "Draft a clause for international data transfer. The clause should specify the potential destination countries and require the data importer to adhere to data protection standards equivalent to the Malaysian PDPA. It should also reference the legal basis for the transfer (e.g., data subject consent or contractual necessity)."
+    },
+    "Mandatory_Breach_Notification": {
+        "section": "New Section 12B (Amendment Act 2024)",
+        "description": "Introduces a mandatory requirement for data controllers to notify the authorities and affected data subjects of a data breach.",
+        "requirements": [
+            "Notify the JPDP Commissioner as soon as practicable (within 72 hours) after becoming aware of a breach.",
+            "If the breach is likely to result in significant harm to the data subject, notify the affected individuals without undue delay.",
+            "Notification must describe the nature of the breach, the data affected, and mitigation steps."
+        ],
+        "exceptions": [],
+        "penalties_for_breach": "Fine up to RM250,000 and/or imprisonment up to 2 years.",
+        "ai_prompt_guidance": "Generate a 'Data Breach Notification' clause for a Data Processing Agreement. It must obligate the Data Processor to notify the Data Controller immediately upon discovering a breach, providing full details to allow the Controller to meet their 72-hour reporting deadline to the JPDP."
+    }
+  },
+  "penalties": {
+    "individual": {
+      "fine": "Up to RM500,000 (for offences like unlawful collection/sale of data). Fines for principle breaches are typically up to RM300,000.",
+      "imprisonment": "Up to 3 years.",
+      "other": ["Potential for civil suits from data subjects for damages."]
+    },
+    "corporate": {
+      "fine": "Up to RM500,000. The 2024 amendment increases some penalties significantly.",
+      "additional": ["Enforcement notices from JPDP.", "Reputational damage.", "Requirement to cease processing activities."]
+    },
+    "risk_level": "High",
+    "enforcement_trend": "Increasing, especially with the new powers and higher penalties under the 2024 amendment."
+  },
+  "contract_specific_requirements": {
+    "Data Processing Agreement": {
+      "mandatory_clauses": [
+        "Clear identification of Data Controller and Data Processor.",
+        "Scope and purpose of data processing.",
+        "Obligation for the processor to act only on the controller's instructions.",
+        "Confidentiality obligations on personnel.",
+        "Implementation of specific security measures (Security Principle).",
+        "Clause requiring processor to notify controller immediately of any data breach.",
+        "Provisions for assisting the controller with data subject access requests.",
+        "Stipulations for data return or deletion at the end of the contract."
+      ],
+      "recommended_clauses": [
+        "Audit and inspection rights for the data controller.",
+        "Liability and indemnity clauses related to data breaches.",
+        "Specific instructions for handling cross-border data transfers."
+      ],
+      "prohibited_clauses": [
+        "Clauses that allow the processor to use data for their own purposes without explicit consent.",
+        "Clauses that disclaim all liability for security breaches."
+      ],
+      "special_considerations": [
+        "The 2024 amendment places direct legal obligations on Data Processors for security, increasing their risk and liability."
+      ]
+    },
+    "Employment Contract": {
+      "mandatory_clauses": [
+        "A clear notice (Privacy Notice for Employees) explaining how employee data is collected, used, and stored.",
+        "Consent clause for processing sensitive data (e.g., health information for insurance, biometric data for attendance)."
+      ],
+      "recommended_clauses": [
+        "Clause outlining the use of monitoring technologies (e.g., CCTV, email monitoring) and the purpose for it.",
+        "Post-employment data retention policy."
+      ],
+      "prohibited_clauses": [
+        "Overly broad consent clauses that imply consent for any and all future purposes."
+      ],
+      "special_considerations": [
+        "Balance the employer's need to process data with the employee's right to privacy. 'Consent' may be considered less freely given in an employment context."
+      ]
+    }
+  },
+  "ai_prompt_templates": {
+    "general": "Generate contract clauses that comply with the 7 Data Protection Principles of the Malaysian PDPA 2010. Ensure all processing activities are based on explicit consent and are limited to specified purposes. The language must be suitable for a commercial agreement in Malaysia.",
+    "Data Processing Agreement": "Draft a comprehensive Data Processing Agreement compliant with the Malaysian PDPA and its 2024 amendments. The agreement is between a [Data Controller's Business Type] and a [Data Processor's Business Type]. It must include direct obligations on the Data Processor regarding security (Section 9), immediate data breach notifications, and assistance with data subject rights. Also, add a clause for international data transfers that requires adherence to PDPA standards.",
+    "risk_mitigation": "Review the following clause for compliance with the Malaysian PDPA. Identify high-risk areas, particularly regarding consent, cross-border data transfer, and security obligations. Suggest specific wording changes to mitigate these risks and align with the enforcement priorities of the JPDP."
+  },
+  "recent_updates": [
+    {
+      "date": "2024-10-17",
+      "description": "The Personal Data Protection (Amendment) Act 2024 was gazetted. It will be enforced in three phases starting Jan 1, Apr 1, and Jun 1, 2025.",
+      "impact": "Major changes include making data breach notification mandatory, imposing direct obligations on data processors, requiring DPO appointments for certain firms, and introducing data portability rights.",
+      "action_required": "Businesses must update contracts (especially DPAs), internal policies, and incident response plans before the effective dates. Review and appoint a Data Protection Officer (DPO) if required."
+    }
+  ],
+  "enforcement_guidance": {
+    "common_violations": [
+      "Processing data without valid consent.",
+      "Failing to provide a proper Privacy Notice in both required languages.",
+      "Inadequate security measures leading to data leaks.",
+      "Retaining data for longer than necessary (Retention Principle).",
+      "Disclosing personal data to third parties without consent (Disclosure Principle)."
+    ],
+    "enforcement_priorities": [
+      "Sectors that handle large amounts of data: Telecommunications, Banking, Insurance, Healthcare.",
+      "Compliance with the 7 core principles.",
+      "Following the upcoming amendments, enforcement will likely focus on data breach reporting and processor compliance."
+    ],
+    "case_examples": [
+      {
+        "case": "Public Compound Action against an airline company (2022)",
+        "violation": "Violation of the Security Principle. A major data breach exposed the personal data of millions of passengers.",
+        "penalty": "While specific fines are often not publicized in detail, such cases lead to investigation by JPDP and issuance of an enforcement notice, requiring the company to overhaul its security systems.",
+        "lesson": "The Security Principle is not optional. Having robust technical and organizational security is a fundamental requirement, and failure can lead to severe regulatory action and reputational damage."
+      }
+    ]
+  },
+  "integration_points": {
+    "related_laws": [
+      {
+        "law_id": "Communications_and_Multimedia_Act_1998",
+        "relationship": "Intersects on data handled by network and application service providers (e.g., telcos, ISPs).",
+        "interaction": "While PDPA governs personal data in commercial transactions, the CMA provides a broader regulatory framework for the communications sector, including content and licensing."
+      },
+      {
+        "law_id": "Cybersecurity_Act_2024",
+        "relationship": "The Cybersecurity Act establishes a framework for national cybersecurity, focusing on Critical National Information Infrastructure (CNII).",
+        "interaction": "A data breach under the PDPA could also trigger reporting and response obligations under the Cybersecurity Act if it affects a CNII entity."
+      }
+    ],
+    "international_frameworks": ["APEC Cross-Border Privacy Rules (CBPR) System"],
+    "standards": ["ISO/IEC 27001 (Information Security Management)", "ISO/IEC 27701 (Privacy Information Management)"]
+  }
+}

@@ -1,0 +1,26 @@
+SOURCE_JOURNAL: Frontiers in oncology
+SOURCE_DOI: 10.3389/fonc.2025.1746492
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Costa E Silva IM, Custódio CS, Monteiro MM, Freitas KABDS, de Lima TO, de Abreu WC, Dos Reis RG, Guerra ENS, Ferreira EB, Dos Reis PED
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Acute radiodermatitis (ARD) is a frequent and debilitating inflammatory toxicity in patients undergoing head and neck radiotherapy (RT). In severe cases, ARD may progress to moist desquamation, with the potential for ulceration. Colonization or infection with We conducted a case series, according to the CARE Statement Guideline, over an eight-month period involving five patients with severe ARD (GRA-L scale ≥ 5) who received aPDT following a standardized protocol. The protocol involved the topical application of methylene blue 1% as the photosensitizer followed by irradiation with a 660-nm diode laser delivering an energy density of 91.836 J/cm aPDT led to significant clinical improvement in all five cases. ARD severity decreased from a mean initial grade of 6 (range: 5-8) to grade 1 in all patients, with no progression to more advanced grades after therapy initiation. Clinical stability was maintained until completion of the prescribed RT course, including the case in which aPDT was initiated during treatment. In the post-RT cases, recovery occurred within 6 to 15 days after aPDT initiation. No adverse effects related to aPDT were observed. This case series provides preliminary evidence that aPDT may assist in the management of severe ARD in patients undergoing head and neck RT. While the observed improvements were encouraging, these findings are exploratory and require confirmation in larger, controlled studies before aPDT can be considered within standardized supportive care approaches.
+
+SOURCE_JOURNAL: Open veterinary journal
+SOURCE_DOI: 10.5455/OVJ.2025.v15.i11.55
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Praja RN, Yudhana A, Pratama LD, Pratiwi EK, Herina RB, Setyarini DW, Sholiha AH, Fuadi SHA, Khairunisa F
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+The incidence of bacterial resistance is a serious global health concern because it reduces the effectiveness of antibiotics and complicates the treatment of infectious diseases. Mastitis is one of the most common and economically significant diseases in the dairy industry, leading to reduced milk yield, altered milk quality, and financial losses for farmers. Antibiotics are commonly used for mastitis treatment, but their excessive or inappropriate use can accelerate the development of antimicrobial resistance (AMR). This study investigated the antimicrobial resistance of Exploratory laboratory research was conducted using purposive sampling. Milk samples from lactating Holstein Friesian dairy cows were screened for subclinical mastitis using the California mastitis test (CMT). Samples with CMT scores of +++ and ++++ were processed for A total of 29 milk samples were examined; 17 (58.6%) samples tested positive for subclinical mastitis. Among the 17 subclinical mastitis-positive samples, 4 (23.5%) were positive for The antibiotic resistance patterns observed in
+
+SOURCE_JOURNAL: Carbohydrate polymers
+SOURCE_DOI: 10.1016/j.carbpol.2025.124858
+SOURCE_DATE: 2026
+SOURCE_AUTHORS: Aboelkheir M, Uyar T
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Cyclodextrins (CDs) are cyclic oligosaccharides derived from starch and are widely recognized as natural, non-toxic materials. In this study, electrospinning followed by various crosslinking strategies was used to create nanofibrous membranes (NMs) based on cyclodextrin (CD). Functionalization with 1,2,3,4-butanetetracarboxylic acid (BTCA) or glutaraldehyde along with polyethyleneimine (PEI), gave the otherwise insoluble poly-CD NMs different ionization properties, allowing for selective adsorption of cationic or anionic dyes through electrostatic attraction. BTCA-crosslinked poly-CD NM effectively adsorbed the cationic dye methylene blue (MB), while PEI-functionalized poly-CD NM showed a strong affinity for the anionic dye methyl orange (MO). Structural analysis confirmed the formation of imine (Schiff base) linkages between PEI's amine groups and glutaraldehyde, which improved thermal stability. The poly-CD/PEI NM achieved an impressive MO adsorption capacity of 814.30 mg/g, significantly higher than that of a PVA/PEI NM (478.85 mg/g) with similar PEI content, highlighting the effectiveness of cyclodextrins as structural components. Adsorption isotherm studies indicated that MO adsorption followed the Langmuir model, implying monolayer adsorption driven primarily by electrostatic attraction between the positively charged PEI groups and the negatively charged dye molecules. The membrane maintained about 90 % of its original capacity after five adsorption/desorption cycles.

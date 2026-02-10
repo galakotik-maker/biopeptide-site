@@ -1,0 +1,186 @@
+{
+  "law_id": "GDPR_EU",
+  "metadata": {
+    "name": "Regulation (EU) 2016/679 of the European Parliament and of the Council (General Data Protection Regulation)",
+    "jurisdiction": "EU",
+    "type": "Data Protection",
+    "last_updated": "2025-06-05",
+    "version": "Consolidated text, including recent EDPB guidelines",
+    "effective_date": "2018-05-25",
+    "authority": "European Data Protection Board (EDPB) and national Data Protection Authorities (DPAs) in each EU member state.",
+    "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679"
+  },
+  "applicability": {
+    "contract_types": ["Data Processing Agreement", "Service Agreement", "Cloud Service Agreement", "Employment Contract", "NDA", "Terms of Service", "Marketing Agreement"],
+    "business_size": ["All sizes, from sole traders to multinational corporations."],
+    "data_types": ["Personal Data", "Special Categories of Personal Data (racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, health data, data concerning sex life or sexual orientation)"],
+    "processing_activities": ["Any operation performed on personal data, whether or not by automated means."],
+    "thresholds": ["Applies to any organization processing personal data of individuals in the EU, regardless of the organization's location, if they: 1) Offer goods or services to EU residents, or 2) Monitor the behavior of EU residents."]
+  },
+  "key_provisions": {
+    "Lawful_Basis_for_Processing": {
+      "section": "Article 6",
+      "description": "Processing is only lawful if at least one of six specific legal bases applies. The chosen basis must be determined *before* processing begins.",
+      "requirements": [
+        "Consent: Must be freely given, specific, informed, and unambiguous.",
+        "Contract: Processing is necessary for the performance of a contract with the data subject.",
+        "Legal Obligation: Processing is necessary to comply with a legal duty.",
+        "Vital Interests: Processing is necessary to protect someone's life.",
+        "Public Task: Processing is necessary for a task in the public interest.",
+        "Legitimate Interests: Processing is necessary for the controller's legitimate interests, unless overridden by the rights of the data subject."
+      ],
+      "exceptions": ["Legitimate Interests cannot be used by public authorities in the performance of their tasks."],
+      "penalties_for_breach": "Up to €20 million or 4% of annual global turnover, whichever is higher. This is a common cause for major fines.",
+      "ai_prompt_guidance": "For a privacy notice, generate a section that clearly lists each processing activity, the specific lawful basis relied upon for that activity from Article 6, and why it is necessary. Avoid relying solely on 'consent' if another basis is more appropriate."
+    },
+    "Data_Subject_Rights": {
+      "section": "Chapter III (Articles 12-23)",
+      "description": "Provides a robust set of rights for individuals to control their personal data.",
+      "requirements": [
+        "Right of Access (Art. 15): Provide individuals with a copy of their personal data and information about the processing.",
+        "Right to Rectification (Art. 16): Correct inaccurate personal data.",
+        "Right to Erasure ('Right to be Forgotten') (Art. 17): Delete personal data under certain conditions.",
+        "Right to Restriction of Processing (Art. 18): Temporarily halt processing of data.",
+        "Right to Data Portability (Art. 20): Provide the individual's data in a machine-readable format.",
+        "Right to Object (Art. 21): Allow individuals to object to processing based on legitimate interests or direct marketing."
+      ],
+      "exceptions": ["Rights can be restricted if necessary for reasons of national security, defense, or other important objectives of general public interest."],
+      "penalties_for_breach": "Up to €20 million or 4% of annual global turnover. Failure to facilitate these rights is a high-risk compliance failure.",
+      "ai_prompt_guidance": "Generate a 'Data Subject Rights' clause for a privacy policy. The clause must list all key rights under Chapter III and provide clear, simple instructions on how an individual can exercise each right, including contact details for the DPO or privacy team."
+    },
+    "Processor_Obligations_and_DPAs": {
+      "section": "Article 28",
+      "description": "Mandates a legally binding contract (Data Processing Agreement or DPA) between a data controller and a data processor. The article specifies exact clauses that must be included.",
+      "requirements": [
+        "Processor must only act on the controller's documented instructions.",
+        "Ensure personnel are bound by confidentiality.",
+        "Implement appropriate technical and organizational security measures (Art. 32).",
+        "Do not engage a sub-processor without the controller's prior written authorization.",
+        "Assist the controller in responding to data subject rights requests.",
+        "Notify the controller without undue delay of any data breach.",
+        "Delete or return all data at the end of the contract.",
+        "Submit to audits and inspections by the controller."
+      ],
+      "exceptions": [],
+      "penalties_for_breach": "Processors can be held directly liable for fines up to €10 million or 2% of global turnover for non-compliance with Article 28.",
+      "ai_prompt_guidance": "Draft a complete, Article 28-compliant Data Processing Agreement. The DPA must contain all mandatory clauses listed in Article 28(3). Pay special attention to the sub-processor authorization clause and the data breach notification clause, requiring immediate notification to the controller."
+    },
+    "International_Data_Transfers": {
+      "section": "Chapter V (Articles 44-50)",
+      "description": "Restricts transfers of personal data outside the European Economic Area (EEA) unless the destination country or the transfer mechanism provides an adequate level of protection.",
+      "requirements": [
+        "Transfer can occur if the European Commission has issued an 'adequacy decision' for the destination country (e.g., UK, Japan, Switzerland, EU-U.S. Data Privacy Framework for certified companies).",
+        "If no adequacy decision, an appropriate safeguard must be used, such as Standard Contractual Clauses (SCCs) or Binding Corporate Rules (BCRs).",
+        "When using SCCs, a Transfer Impact Assessment (TIA) must be conducted to assess if the destination country's laws undermine the SCCs' protections (per the 'Schrems II' ruling)."
+      ],
+      "exceptions": ["Derogations in Article 49 allow for transfers in specific situations (e.g., explicit consent for a specific transfer, contractual necessity), but these should not be used for systematic transfers."],
+      "penalties_for_breach": "Up to €20 million or 4% of annual global turnover. This is the highest-risk area for enforcement against major tech companies.",
+      "ai_prompt_guidance": "Generate an 'International Data Transfers' clause for a DPA. The clause must state that data will not be transferred outside the EEA without an appropriate safeguard. If the transfer is to a country without an adequacy decision (like the US for a non-DPF certified company), specify that the latest version of the European Commission's Standard Contractual Clauses will be used and that a Transfer Impact Assessment has been completed."
+    }
+  },
+  "penalties": {
+    "individual": {
+      "fine": "N/A (Fines are levied on 'undertakings', i.e., corporate entities).",
+      "imprisonment": "N/A (GDPR does not impose criminal sanctions, though member state law might).",
+      "other": ["Individuals have the right to claim material or non-material damages for infringements."]
+    },
+    "corporate": {
+      "fine": "Two tiers: 1) Up to €10 million or 2% of prior year's global annual turnover. 2) Up to €20 million or 4% of prior year's global annual turnover, whichever is higher.",
+      "additional": ["Corrective measures: warnings, reprimands, temporary or definitive processing bans, orders to comply, data erasure orders.", "Severe reputational damage."]
+    },
+    "risk_level": "Very High",
+    "enforcement_trend": "Mature and active. DPAs are focusing on large-scale data processing, ad-tech, international transfers, and the fundamental principles of lawfulness and transparency. Personal liability for executives is an emerging trend in some member states."
+  },
+  "contract_specific_requirements": {
+    "Data Processing Agreement": {
+      "mandatory_clauses": [
+        "Subject-matter, duration, nature, and purpose of the processing.",
+        "Type of personal data and categories of data subjects.",
+        "Obligations and rights of the controller.",
+        "Processor acts only on documented instructions.",
+        "Duty of confidence.",
+        "Security of processing (Art. 32).",
+        "Rules for engaging sub-processors.",
+        "Assistance with data subject rights.",
+        "Assistance with breach notification and DPIAs.",
+        "End-of-contract data deletion/return.",
+        "Audit and inspection rights."
+      ],
+      "recommended_clauses": [
+        "Specific liability and indemnity caps between the parties.",
+        "Detailed procedures and timelines for breach notification.",
+        "Clear allocation of responsibilities for conducting Transfer Impact Assessments (TIAs)."
+      ],
+      "prohibited_clauses": [
+        "Any clause that allows the processor to determine the purpose and means of processing.",
+        "Clauses that absolve the processor of all liability under Article 28."
+      ],
+      "special_considerations": [
+        "The DPA is not just a formality; it is a legally required, highly prescriptive document. An invalid DPA is a direct infringement of Article 28."
+      ]
+    }
+  },
+  "ai_prompt_templates": {
+    "general": "Generate contract clauses that comply with the principles of the EU GDPR (Article 5). Ensure all processing is based on a specified lawful basis (Article 6), respects data subject rights (Chapter III), and upholds the principle of data protection by design and by default (Article 25).",
+    "Data Processing Agreement": "Draft a GDPR-compliant Data Processing Agreement (DPA) based on Article 28. The agreement is between [Controller's Business Type] established in the EU and [Processor's Business Type] established in [Processor's Country]. It must include all mandatory clauses from Art. 28(3), including audit rights, breach notification without undue delay, and a detailed annex describing the processing activities (as per Art. 28(3)).",
+    "risk_mitigation": "Review the following data transfer clause for compliance with GDPR Chapter V in light of the Schrems II ruling. The transfer is from the EU to the USA. Assess whether relying on Standard Contractual Clauses (SCCs) alone is sufficient. Recommend adding wording that mandates a Transfer Impact Assessment (TIA) and supplementary measures (like encryption) to ensure an adequate level of data protection."
+  },
+  "recent_updates": [
+    {
+      "date": "2025-06-05",
+      "description": "The EDPB adopted its final guidelines on Article 48 of the GDPR, clarifying the conditions for lawfully transferring data in response to requests from third-country authorities. It reinforces that such requests are not automatically enforceable in the EU.",
+      "impact": "This increases the burden on companies to scrutinize and potentially challenge foreign government access requests, making it a key part of Transfer Impact Assessments.",
+      "action_required": "Incorporate checks against Article 48 into the TIA process and DPA clauses related to government access requests."
+    },
+    {
+      "date": "2024-01-01",
+      "description": "The EU-U.S. Data Privacy Framework (DPF) became fully operational as an adequacy mechanism for transfers to certified U.S. companies, providing a more streamlined alternative to SCCs for eligible transfers.",
+      "impact": "Simplifies EU-US data transfers for companies transferring to DPF-certified entities, but does not eliminate the need for SCCs for transfers to non-certified entities.",
+      "action_required": "Verify the DPF certification status of US data importers before relying on this transfer mechanism."
+    }
+  ],
+  "enforcement_guidance": {
+    "common_violations": [
+      "Non-compliance with the principle of lawfulness, fairness, and transparency (Art. 5).",
+      "Insufficient legal basis for data processing (Art. 6).",
+      "Inadequate fulfillment of data subject rights requests (Chapter III).",
+      "Insufficient technical and organizational measures to ensure information security (Art. 32).",
+      "Non-compliant international data transfers (Chapter V)."
+    ],
+    "enforcement_priorities": [
+      "Large-scale processing by major technology platforms (social media, ad-tech).",
+      "Lawfulness of international data transfers, particularly to the US.",
+      "Use of cookies and tracking technologies without valid consent.",
+      "Compliance with data subject access and erasure requests."
+    ],
+    "case_examples": [
+      {
+        "case": "Meta Platforms Ireland Limited (May 2023)",
+        "violation": "Continued transfers of personal data to the US following the Schrems II judgment, without ensuring an adequate level of protection against US surveillance laws. Violation of GDPR Chapter V.",
+        "penalty": "Record-breaking fine of €1.2 billion and an order to suspend future data transfers to the US.",
+        "lesson": "Regulators are willing to issue massive fines for systematic, large-scale violations of core GDPR principles, especially international data transfers. Relying on legal mechanisms like SCCs without conducting a proper risk assessment (TIA) is not compliant."
+      }
+    ]
+  },
+  "integration_points": {
+    "related_laws": [
+      {
+        "law_id": "EU_AI_ACT",
+        "relationship": "GDPR applies whenever an AI system processes personal data. The AI Act provides a specific risk-based framework for AI systems themselves.",
+        "interaction": "A Data Protection Impact Assessment (DPIA) under GDPR (Art. 35) and a Fundamental Rights Impact Assessment (FRIA) under the AI Act may overlap. Data governance and transparency principles from GDPR are foundational for building compliant AI systems."
+      },
+      {
+        "law_id": "EU_Digital_Services_Act",
+        "relationship": "The DSA regulates online intermediaries and platforms, with rules on content moderation and advertising transparency.",
+        "interaction": "The DSA's restrictions on using special categories of data for advertising complement GDPR's own restrictions (Art. 9). Consent for ad personalization under GDPR must also meet DSA transparency requirements."
+      },
+      {
+        "law_id": "ePrivacy_Directive",
+        "relationship": "Often called the 'cookie law', it sets specific rules for electronic communications, including tracking technologies.",
+        "interaction": "The GDPR's high standard for consent directly applies to the consent required for placing cookies under the ePrivacy Directive."
+      }
+    ],
+    "international_frameworks": ["Council of Europe Convention 108+"],
+    "standards": ["ISO/IEC 27701 (Privacy Information Management System)"]
+  }
+}

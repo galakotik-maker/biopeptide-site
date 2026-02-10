@@ -1,0 +1,58 @@
+SOURCE_JOURNAL: Communications medicine
+SOURCE_DOI: 10.1038/s43856-025-00904-9
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Gonzales MM, Garbarino VR, Kautz TF, Song X, Lopez-Cruzan M, Linehan L, Van Skike CE, De Erausquin GA, Galvan V, Orr ME, Musi N, He Y, Bateman RJ, Wang CP, Seshadri S, Kraig E, Kellogg D
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Rapamycin has been shown to extend lifespan and acts on pathologies underlying Alzheimer's disease and related dementias in animal models. However, rapamycin's clinical application remains underexplored. We conducted a single-site open-label phase 1 clinical trial (ClinicalTrials.gov: NCT04200911) to examine the effects of rapamycin in humans. Eligible participants were people 55-85 years old with mild cognitive impairment or early-stage dementia, which was defined as having a Global Clinical Dementia Rating Scale Score of 0.5-1. All participants received rapamycin (1 mg/day) for eight weeks. The primary aim was to evaluate rapamycin's central nervous system penetrance by assaying drug levels in the cerebrospinal fluid (CSF) before and after treatment. Secondary aims evaluated safety, cognition, Alzheimer's disease, and inflammatory biomarkers in the CSF and plasma. In ten participants (mean age 74 ± 4 years, 60% female), we find that rapamycin is not detectable in the CSF before or after treatment. After treatment, we find that twenty, mostly mild adverse events occur, systolic blood pressure and hemoglobin A1c increase, multiple erythrocyte parameters decrease, and there are no significant cognitive changes. Furthermore, we find that CSF phosphorylated tau-181 (mean change (95% confidence interval) pg/ml), 2.64 [0.70-4.59]), glial fibrillary acidic protein (6262.21 [3787.44-9373.84]), and neurofilament light (367.19 [204.28-561.61]) and plasma interferon gamma (4.37 [3.01-5.74]), interleukin 5 (0.33 [0.12-0.64]), vascular endothelial growth factor D (3741.03 [1505.98-5976.07]), soluble fms-like tyrosine kinase-1 (258.88 [89.03-428.74]) and placental growth factor (20.81 [12.38-29.25]) significantly increase (FDR-corrected p-value < 0.05). Rapamycin is not detectable in the CSF before or after treatment, but several Alzheimer's disease and inflammatory biomarkers increase after treatment. Our results highlight the need to better understand the biological effects and clinical impact of repurposing rapamycin for Alzheimer's disease.
+
+SOURCE_JOURNAL: Aging
+SOURCE_DOI: 10.18632/aging.206235
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Moel M, Harinath G, Lee V, Nyquist A, Morgan SL, Isman A, Zalzala S
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+This 48-week decentralized, double-blinded, randomized, placebo-controlled trial (NCT04488601) evaluated the long-term safety of intermittent low-dose rapamycin in a healthy, normative-aging human cohort. Participants received placebo, 5 mg or 10 mg compounded rapamycin weekly. The primary outcome measure was visceral adiposity (by DXA scan), secondary outcomes were blood biomarkers, and lean tissue and bone mineral content (by DXA scan). Established surveys were utilized to evaluate health and well-being. Safety was assessed through adverse events and blood biomarker monitoring. Adverse and serious adverse events were similar across all groups. Visceral adiposity did not change significantly (η Low-dose, intermittent rapamycin administration over 48 weeks is relatively safe in healthy, normative-aging adults, and was associated with significant improvements in lean tissue mass and pain in women. Future work will evaluate benefits of a broader range of rapamycin doses on healthspan metrics for longevity, and will aim to more comprehensively establish efficacy.
+
+SOURCE_JOURNAL: Cureus
+SOURCE_DOI: 10.7759/cureus.77435
+SOURCE_DATE: 2025
+SOURCE_AUTHORS: Britton A, Harinath G, Morgan S, Zalzala S
+SOURCE_CITATIONS: 
+SOURCE_URL: https://pubmed.ncbi.nlm.nih.gov/
+
+Osteopenia and osteoporosis are prevalent bone disorders characterized by reduced bone mineral density (BMD), leading to an increased risk of fractures. This case report presents a 52-year-old Caucasian female patient with osteopenia who experienced an unexpected 15.9% increase in lumbar spine BMD within two years after enrolling in a clinical trial involving low-dose rapamycin and subsequently starting low-dose naltrexone. This case potentially opens novel treatment strategies for bone density improvement in aging populations.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT04742777
+SOURCE_DATE: 2022
+SOURCE_AUTHORS: The University of Texas Health Science Center at San Antonio
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT04742777
+This is a formal academic record from ClinicalTrials.gov database
+
+The ability to mount an effective immune response declines with age, leaving the elderly increasingly susceptible to infectious diseases and cancer. Rapamycin, an FDA approved drug to prevent transplant rejection, increases the lifespan and healthspan of mice and ameliorates age-related declines in immune responsiveness, cancer survival, and cognition in laboratory animals. Investigators are conducting a translational trial to test whether rapamycin also improves life functions in humans focusing on elderly persons (aged 70-95).
+
+Substudy E will evaluate the Rapamycin and Cardiac Function.
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT02874924
+SOURCE_DATE: 2016
+SOURCE_AUTHORS: The University of Texas Health Science Center at San Antonio
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT02874924
+This is a formal academic record from ClinicalTrials.gov database
+
+The ability to mount an effective immune response declines with age, leaving the elderly increasingly susceptible to infectious diseases and cancer. Rapamycin, an FDA approved drug to prevent transplant rejection, increases the lifespan and healthspan of mice and ameliorates age-related declines in immune responsiveness, cancer survival, and cognition in laboratory animals. Investigators are conducting a translational trial to test whether rapamycin also improves life functions in humans focusing on elderly persons (aged 70-95).
+
+SOURCE_JOURNAL: ClinicalTrials.gov
+SOURCE_DOI: https://clinicaltrials.gov/study/NCT03353597
+SOURCE_DATE: 2018
+SOURCE_AUTHORS: Chandra Duggirala
+SOURCE_CITATIONS: 
+SOURCE_URL: https://clinicaltrials.gov/study/NCT03353597
+This is a formal academic record from ClinicalTrials.gov database
+
+This trial is designed to study the effects of monthly transfusions of young healthy male donor plasma on biological age as assessed by DNA methylation levels, and changes in cognitive, renal, and pulmonary function, muscle strength, telomere length, testosterone, estrogen, DHEAS, IGF-1, high resolution C-Reactive protein, and expression of P16INK4a in peripheral blood T lymphocytes and skin biopsies.

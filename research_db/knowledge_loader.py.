@@ -1,0 +1,16 @@
+import os
+
+def add_knowledge(subject, content):
+    db_path = "research_db"
+    if not os.path.exists(db_path):
+        os.makedirs(db_path)
+    
+    file_name = f"{db_path}/{subject.lower().replace(' ', '_')}.txt"
+    
+    with open(file_name, "a", encoding="utf-8") as f:
+        f.write(f"\n--- DATA ENTRY ---\n{content}\n")
+    
+    print(f"✅ Знание о '{subject}' добавлено в базу Арбитра.")
+
+# ПРИМЕР: Добавляем базу по Эпиталону
+add_knowledge("Epitalon", "Эпиталон (Epithalon) — синтетический тетрапептид. Главный эффект: активация фермента теломеразы, что приводит к удлинению теломер и омоложению клеток. Дозировка в исследованиях Хавинсона: 10 мг ежедневно курсом.")

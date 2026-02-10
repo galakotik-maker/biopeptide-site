@@ -1,0 +1,174 @@
+{
+  "jurisdiction_mapping": {
+    "MY": [
+      "PDPA_MY",
+      "EMPLOYMENT_ACT_MY",
+      "CONTRACT_ACT_MY",
+      "COMPANIES_ACT_MY"
+    ],
+    "SG": [
+      "PDPA_SG",
+      "EMPLOYMENT_ACT_SG",
+      "CONTRACT_ACT_SG"
+    ],
+    "EU": [
+      "GDPR_EU",
+      "DIGITAL_SERVICES_ACT",
+      "AI_ACT"
+    ],
+    "US": [
+      "CCPA_US",
+      "CPRA",
+      "FEDERAL_TRADE_COMMISSION_ACT"
+    ],
+    "UK": [
+      "UK_GDPR",
+      "DATA_PROTECTION_ACT",
+      "EMPLOYMENT_RIGHTS_ACT"
+    ],
+    "GLOBAL": [
+      "UN_GLOBAL_COMPACT",
+      "ISO_27001",
+      "SOC2"
+    ]
+  },
+  "laws": {
+    "PDPA_MY": {
+      "name": "Personal Data Protection Act 2010 (Malaysia)",
+      "type": "data_protection"
+    },
+    "EMPLOYMENT_ACT_MY": {
+      "name": "Employment Act 1955 (Malaysia)",
+      "type": "employment"
+    },
+    "CONTRACT_ACT_MY": {
+      "name": "Contracts Act 1950 (Malaysia)",
+      "type": "contract"
+    },
+    "COMPANIES_ACT_MY": {
+      "name": "Companies Act 2016 (Malaysia)",
+      "type": "corporate"
+    },
+    "GDPR_EU": {
+      "name": "General Data Protection Regulation (EU)",
+      "type": "data_protection"
+    },
+    "CCPA_US": {
+      "name": "California Consumer Privacy Act",
+      "type": "data_protection"
+    },
+    "PDPA_SG": {
+      "name": "Personal Data Protection Act 2012 (Singapore)",
+      "type": "data_protection"
+    },
+    "ISO_27001": {
+      "name": "ISO/IEC 27001 Information Security Management",
+      "type": "information_security"
+    }
+  },
+  "contract_types": {
+    "data_processing": {
+      "name": "Data Processing Agreement",
+      "description": "Agreements governing the processing of personal data by a third party.",
+      "common_jurisdictions": ["MY", "SG", "EU", "US", "UK"]
+    },
+    "employment": {
+      "name": "Employment Contract",
+      "description": "Contracts establishing the terms of employment between an employer and employee.",
+      "common_jurisdictions": ["MY", "SG", "UK"]
+    },
+    "nda": {
+      "name": "Non-Disclosure Agreement",
+      "description": "Confidentiality agreements used to protect sensitive information.",
+      "common_jurisdictions": ["MY", "SG", "EU", "US", "UK"]
+    },
+    "service_agreement": {
+      "name": "Service Agreement",
+      "description": "General contracts for the provision of services.",
+      "common_jurisdictions": ["MY", "SG", "EU", "US", "UK"]
+    }
+  },
+  "risk_levels": {
+    "critical": {
+      "description": "Severe financial penalties, criminal liability, or major business disruption.",
+      "examples": ["GDPR fines up to 4% of global turnover", "Criminal prosecution possible", "Contract voidability"],
+      "financial_range": "€1M - €100M+",
+      "action_required": "immediate_remediation"
+    },
+    "high": {
+      "description": "Significant financial penalties, regulatory sanctions, or serious business impact.",
+      "examples": ["GDPR fines up to €20M", "Employment tribunal claims", "Regulatory investigations"],
+      "financial_range": "€100K - €1M",
+      "action_required": "urgent_attention"
+    },
+    "medium": {
+      "description": "Moderate financial penalties, regulatory sanctions, or business disruption.",
+      "examples": ["Employment tribunal claims", "Regulatory investigations", "Contract disputes"],
+      "financial_range": "€10K - €100K", 
+      "action_required": "planned_remediation"
+    },
+    "low": {
+      "description": "Limited financial exposure, primarily contractual remedies.",
+      "examples": ["Contract damages", "Specific performance orders", "Administrative penalties"],
+      "financial_range": "€1K - €10K",
+      "action_required": "monitoring"
+    }
+  },
+  "penalty_guidelines": {
+    "GDPR_EU": {
+      "max_administrative_fine": "€20,000,000 or 4% of annual global turnover",
+      "breach_notification_penalty": "€10,000,000 or 2% of annual global turnover",
+      "risk_multipliers": {
+        "cross_border_transfer": 1.5,
+        "sensitive_data": 2.0,
+        "children_data": 2.5,
+        "large_scale_processing": 1.8
+      }
+    },
+    "PDPA_MY": {
+      "max_administrative_fine": "RM 500,000",
+      "breach_notification_penalty": "RM 100,000",
+      "risk_multipliers": {
+        "sensitive_data": 1.5,
+        "commercial_processing": 1.2,
+        "repeated_violations": 2.0
+      }
+    },
+    "EMPLOYMENT_ACT_MY": {
+      "wrongful_termination": "RM 10,000",
+      "overtime_violations": "RM 50,000",
+      "non_compete_breach": "Contract voidability",
+      "risk_multipliers": {
+        "senior_employee": 1.5,
+        "multiple_violations": 1.8
+      }
+    }
+  },
+  "contract_risk_indicators": {
+    "unconscionable_terms": {
+      "liability_caps_under": "RM 10,000",
+      "excessive_termination_fees": "24+ months of fees",
+      "unilateral_modification": "without consent",
+      "risk_level": "high"
+    },
+    "employment_violations": {
+      "excessive_non_compete": "5+ years",
+      "inadequate_notice": "less than statutory minimum",
+      "overtime_non_compliance": "no overtime provisions",
+      "risk_level": "medium_to_high"
+    },
+    "data_protection_gaps": {
+      "no_consent_mechanism": "missing explicit consent",
+      "inadequate_retention": "indefinite or excessive periods",
+      "unsafe_transfers": "no adequate safeguards",
+      "risk_level": "high"
+    }
+  },
+  "metadata": {
+    "version": "1.1",
+    "last_updated": "2025-06-27",
+    "total_laws": 8,
+    "total_jurisdictions": 6,
+    "supported_contract_types": 4
+  }
+}
