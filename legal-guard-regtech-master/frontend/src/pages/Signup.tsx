@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Eye, EyeOff, FileText, CheckCircle, AlertCircle } from 'lucide-react';
+import { Eye, EyeOff, FileText, AlertCircle } from 'lucide-react';
 import { authService } from '../utils/auth';
 import type { RegisterData } from '../utils/auth';
 

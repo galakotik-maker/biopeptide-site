@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Shield, UserPlus, Trash2, Edit, Users, Crown, ArrowLeft } from 'lucide-react';
+import { Shield, UserPlus, Trash2, Users, Crown, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { authService } from '../utils/auth'; // Assuming authService and types are correctly imported
 import type { User, RegisterData } from '../utils/auth';

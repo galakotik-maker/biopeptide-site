@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Shield, FileText, TrendingUp, ArrowRight, Brain, Send } from 'lucide-react'; // Added Brain icon for consistency
+import { Shield, FileText, ArrowRight, Brain, Send } from 'lucide-react'; // Added Brain icon for consistency
 import Header from '../components/layout/Header';
 
 export default function Landing() {
