@@ -1,0 +1,33 @@
+:root {
+  --ink: #1a2b2b;
+  --ink-soft: #4a5c5c;
+  --teal: #0a8a80;
+  --teal-deep: #076b63;
+  --paper: #fbfcfb;
+  --panel: #f0f5f4;
+  --line: #d9e4e2;
+  --amber-bg: #fdf6e9;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, "Segoe UI", "Golos Text", "Inter", system-ui, sans-serif; color: var(--ink); background: var(--paper); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+.eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal-deep); font-weight: 600; margin-bottom: 0.75rem; }
+h1 { font-size: clamp(1.6rem, 4vw, 2.3rem); line-height: 1.2; letter-spacing: -0.01em; font-weight: 700; margin-bottom: 1.25rem; }
+.lede { font-size: 1.06rem; color: var(--ink-soft); border-left: 3px solid var(--teal); padding: 0.4rem 0 0.4rem 1.1rem; margin-bottom: 2.5rem; }
+h2 { font-size: 1.28rem; font-weight: 700; margin: 2.4rem 0 0.9rem; padding-top: 1.4rem; border-top: 1px solid var(--line); letter-spacing: -0.005em; }
+h2:first-of-type { border-top: none; padding-top: 0; }
+p { margin-bottom: 1rem; }
+.mono { font-family: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.92rem; background: var(--panel); padding: 0.15em 0.4em; border-radius: 4px; word-break: break-word; }
+ul { margin: 0 0 1rem 1.2rem; }
+li { margin-bottom: 0.4rem; }
+.status { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--teal); border-radius: 8px; padding: 1.1rem 1.3rem; margin: 1.2rem 0; font-size: 0.96rem; }
+.status strong { color: var(--teal-deep); }
+.note { background: var(--amber-bg); border: 1px solid #f0e2c4; border-radius: 8px; padding: 0.9rem 1.2rem; margin: 1.2rem 0; font-size: 0.9rem; color: #5c4a1f; }
+.sources { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.sources a { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.82rem; background: var(--panel); color: var(--teal-deep); text-decoration: none; padding: 0.35rem 0.7rem; border-radius: 6px; border: 1px solid var(--line); transition: background 0.15s; }
+.sources a:hover { background: #e3efed; }
+.cta { margin-top: 2.5rem; padding: 1.3rem 1.4rem; background: var(--panel); border-radius: 10px; font-size: 0.95rem; }
+.cta a { color: var(--teal-deep); font-weight: 600; text-decoration: none; }
+.cta a:hover { text-decoration: underline; }
+.disclaimer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); font-size: 0.82rem; color: var(--ink-soft); line-height: 1.55; }
+.tag { display: inline-block; font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; background: var(--teal); color: #fff; padding: 0.2rem 0.55rem; border-radius: 4px; font-weight: 600; margin-bottom: 1.5rem; }

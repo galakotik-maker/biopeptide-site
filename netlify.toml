@@ -2,3 +2,13 @@
   base = "legal-guard-regtech-master/frontend"
   command = "npm run build"
   publish = "dist"
+
+[[redirects]]
+  from = "/research/melanotan-ii"
+  to = "/research/melanotan-ii.html"
+  status = 200
+
+[[redirects]]
+  from = "/book"
+  to = "/index.html"
+  status = 200
