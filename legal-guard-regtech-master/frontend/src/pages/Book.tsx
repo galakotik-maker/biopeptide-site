@@ -81,12 +81,15 @@ export default function Book() {
     if (!needle) return book.chapters
     const result: Chapter[] = []
     for (const chapter of book.chapters) {
-      const titleHit = chapter.title.toLowerCase().includes(needle)
-      const peptides = (chapter.peptides || []).filter((peptide) =>
-        peptide.name.toLowerCase().includes(needle),
-      )
+      const titleHit =
+        chapter.title.toLowerCase().includes(needle) ||
+        (chapter.intro || '').toLowerCase().includes(needle)
+      const peptides = (chapter.peptides || []).filter((peptide) => {
+        const haystack = `${peptide.name} ${peptide.slug} ${peptide.content || ''}`.toLowerCase()
+        return haystack.includes(needle)
+      })
       if (titleHit || peptides.length > 0) {
-        result.push({ ...chapter, peptides: titleHit ? chapter.peptides || [] : peptides })
+        result.push({ ...chapter, peptides: titleHit && peptides.length === 0 ? chapter.peptides || [] : peptides })
       }
     }
     return result
