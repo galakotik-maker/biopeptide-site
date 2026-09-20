@@ -76,21 +76,20 @@ export default function Book() {
   }, [])
 
   const chapters = useMemo(() => {
-    if (!book) return []
+    if (!book) return [] as Chapter[]
     const needle = query.trim().toLowerCase()
     if (!needle) return book.chapters
-    return book.chapters
-      .map((chapter) => {
-        const titleHit = chapter.title.toLowerCase().includes(needle)
-        const peptides = (chapter.peptides || []).filter((peptide) =>
-          peptide.name.toLowerCase().includes(needle),
-        )
-        if (titleHit || peptides.length > 0) {
-          return { ...chapter, peptides: titleHit ? chapter.peptides || [] : peptides }
-        }
-        return null
-      })
-      .filter((chapter): chapter is Chapter => Boolean(chapter))
+    const result: Chapter[] = []
+    for (const chapter of book.chapters) {
+      const titleHit = chapter.title.toLowerCase().includes(needle)
+      const peptides = (chapter.peptides || []).filter((peptide) =>
+        peptide.name.toLowerCase().includes(needle),
+      )
+      if (titleHit || peptides.length > 0) {
+        result.push({ ...chapter, peptides: titleHit ? chapter.peptides || [] : peptides })
+      }
+    }
+    return result
   }, [book, query])
 
   useEffect(() => {
