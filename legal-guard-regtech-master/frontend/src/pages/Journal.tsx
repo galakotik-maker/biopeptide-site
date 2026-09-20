@@ -115,6 +115,14 @@ export default function Journal() {
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
             Сухие факты, практические выводы и фокус на научной достоверности.
           </p>
+          <p className="mt-5">
+            <Link
+              to="/book"
+              className="inline-flex items-center text-sm font-semibold text-[#0ABAB5] hover:underline"
+            >
+              Книга / Справочник по пептидам →
+            </Link>
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">

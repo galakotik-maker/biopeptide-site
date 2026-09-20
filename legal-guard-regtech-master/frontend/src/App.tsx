@@ -14,6 +14,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 import AnalysisResults from './pages/AnalysisResult'
 import Journal from './pages/Journal'
 import ArticlePage from './pages/ArticlePage'
+import Book from './pages/Book'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path='/compliance' element={<Compliance />} />
         <Route path='/regulations' element={<Regulations />} />
         <Route path='/journal' element={<Journal />} />
+        <Route path='/book' element={<Book />} />
         <Route path='/landing' element={<Landing />} />
         <Route path='/journal/:id' element={<ArticlePage />} />
 
